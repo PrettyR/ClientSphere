@@ -1,0 +1,11 @@
+{
+  "total_clients": 1000,
+  "total_assets": 16057966.0,
+  "avg_balance": 16057.966,
+  "segments_count": 2,
+  "segment_breakdown": {
+    "Emerging Affluent": 794,
+    "High Net Worth": 206
+  },
+  "export_timestamp": "2025-10-15 03:50:54"
+}

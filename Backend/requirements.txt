@@ -1,0 +1,14 @@
+Flask==2.3.3
+Flask-RESTful
+Flask-JWT-Extended
+Flask-Migrate
+Flask-Cors
+SQLAlchemy
+PyMySQL            # for MySQL (optional)
+pandas
+joblib
+scikit-learn
+scipy
+matplotlib
+seaborn
+plotly

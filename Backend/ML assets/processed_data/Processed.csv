@@ -1,0 +1,801 @@
+,CIFs,Age,Gender,Occupation,Monthly_Income,Account_Balance,Transaction_Frequency,Preferred_Product,Branch_Location,Currency_Used,Loan_Status,Investment_Products,Credit_Score,Cluster
+0,1001,59,Female,Business Owner,1734,13872,30,Savings,Masvingo,USD,Rejected,Real Estate,351.0,gold
+1,1002,49,Female,Retired,426,3408,50,Loans,Kwekwe,USD,Approved,Mutual Funds,624.0,silver
+2,1003,35,Female,Salaried,2148,21480,9,Investments,Kwekwe,USD,Pending,Stocks,576.0,gold
+3,1004,63,Female,Business Owner,8980,62860,35,Investments,Kwekwe,USD,Approved,Stocks,835.0,platinum
+4,1005,28,Female,Business Owner,5713,5713,8,Savings,Gweru,USD,Rejected,Bonds,785.0,bronze
+5,1007,59,Female,Student,102,408,19,Savings,Gweru,ZWL,Rejected,Mutual Funds,451.0,bronze
+6,1008,39,Male,Salaried,2700,13500,36,Loans,Bulawayo,USD,Rejected,Bonds,782.0,platinum
+7,1009,43,Female,Student,123,1230,50,Investments,Harare,ZiG,Pending,Real Estate,558.0,silver
+8,1011,31,Female,Salaried,4348,17392,59,Investments,Masvingo,USD,Approved,Mutual Funds,467.0,platinum
+9,1012,44,Male,Salaried,3773,7546,43,Investments,Kwekwe,ZiG,Approved,Stocks,609.0,silver
+10,1013,56,Male,Civil Servant,1167,7002,27,Loans,Gweru,USD,Approved,Mutual Funds,778.0,silver
+11,1014,60,Female,Business Owner,5993,47944,32,Loans,Mutare,ZiG,Pending,Stocks,,platinum
+12,1016,23,Female,Retired,874,6118,57,Savings,Harare,USD,Pending,Stocks,595.0,silver
+13,1017,42,Female,Salaried,986,5916,18,Investments,Bulawayo,ZiG,Rejected,Real Estate,760.0,bronze
+14,1018,22,Male,Student,160,320,28,Loans,Mutare,USD,Pending,Stocks,623.0,bronze
+15,1019,44,Female,Retired,813,5691,29,Loans,Harare,USD,Approved,Real Estate,440.0,silver
+16,1022,58,Female,Salaried,4866,29196,47,Loans,Gweru,ZWL,Approved,Mutual Funds,540.0,platinum
+17,1023,22,Male,Salaried,1339,13390,59,Savings,Bulawayo,ZiG,Pending,Real Estate,654.0,platinum
+18,1024,41,Male,Business Owner,2901,23208,59,Loans,Bulawayo,ZiG,Pending,Real Estate,479.0,platinum
+19,1025,53,Female,Business Owner,4759,38072,31,Savings,Bulawayo,USD,Approved,Bonds,,platinum
+20,1026,32,Male,Civil Servant,1157,3471,4,Investments,Masvingo,USD,Approved,Bonds,,bronze
+21,1027,42,Female,Business Owner,5423,37961,37,Savings,Mutare,ZiG,Rejected,Bonds,470.0,platinum
+22,1028,64,Male,Salaried,4814,4814,17,Investments,Mutare,USD,Pending,Stocks,773.0,bronze
+23,1029,45,Male,Student,205,205,39,Savings,Kwekwe,USD,Rejected,Bonds,833.0,silver
+24,1030,69,Male,Retired,983,6881,48,Loans,Mutare,USD,Rejected,Real Estate,666.0,silver
+25,1031,47,Male,Salaried,4358,43580,46,Loans,Kwekwe,USD,Rejected,Stocks,406.0,platinum
+26,1033,48,Female,Business Owner,4245,29715,48,Savings,Gweru,ZiG,Rejected,Mutual Funds,526.0,platinum
+27,1034,36,Male,Business Owner,7591,75910,39,Savings,Kwekwe,USD,Rejected,Bonds,743.0,platinum
+28,1036,67,Male,Salaried,3392,27136,4,Savings,Gweru,ZiG,Pending,Real Estate,695.0,gold
+29,1037,64,Male,Salaried,2297,4594,30,Loans,Masvingo,USD,Pending,Mutual Funds,383.0,silver
+30,1039,57,Female,Business Owner,5563,33378,22,Investments,Kwekwe,USD,Approved,Mutual Funds,792.0,gold
+31,1040,27,Female,Business Owner,3024,27216,11,Savings,Bulawayo,USD,Pending,Bonds,567.0,gold
+32,1041,41,Male,Salaried,632,1264,2,Investments,Harare,USD,Rejected,Real Estate,824.0,bronze
+33,1042,29,Female,Civil Servant,354,1062,44,Loans,Harare,ZWL,Rejected,Mutual Funds,419.0,silver
+34,1044,38,Male,Salaried,3403,3403,30,Savings,Mutare,USD,Rejected,Bonds,356.0,silver
+35,1045,24,Female,Salaried,4496,44960,36,Investments,Harare,USD,Pending,Bonds,339.0,platinum
+36,1048,29,Male,Civil Servant,1019,1019,53,Loans,Gweru,USD,Pending,Mutual Funds,846.0,silver
+37,1049,46,Female,Salaried,1572,14148,7,Loans,Gweru,USD,Pending,Stocks,558.0,gold
+38,1050,22,Female,Business Owner,5218,41744,1,Savings,Gweru,USD,Rejected,Bonds,816.0,gold
+39,1051,40,Male,Civil Servant,922,3688,58,Savings,Bulawayo,USD,Rejected,Mutual Funds,822.0,silver
+40,1053,67,Female,Civil Servant,756,8316,23,Investments,Kwekwe,USD,Pending,Mutual Funds,483.0,gold
+41,1055,64,Female,Business Owner,5926,11852,45,Loans,Bulawayo,USD,Approved,Real Estate,461.0,platinum
+42,1059,34,Female,Retired,356,2492,8,Loans,Harare,USD,Pending,Stocks,369.0,bronze
+43,1061,56,Male,Civil Servant,711,2133,22,Investments,Gweru,USD,Pending,Bonds,715.0,bronze
+44,1062,60,Female,Salaried,3876,7752,19,Savings,Masvingo,USD,Approved,Bonds,831.0,bronze
+45,1063,24,Female,Civil Servant,1402,9814,37,Loans,Gweru,ZiG,Rejected,Mutual Funds,740.0,silver
+46,1064,22,Male,Salaried,1841,12887,18,Savings,Harare,USD,Rejected,Stocks,763.0,gold
+47,1065,26,Female,Salaried,1115,4460,31,Investments,Bulawayo,USD,Approved,Mutual Funds,695.0,silver
+48,1066,62,Female,Salaried,992,10912,37,Loans,Mutare,USD,Rejected,Bonds,694.0,silver
+49,1067,24,Female,Business Owner,2130,19170,30,Savings,Masvingo,ZiG,Approved,Bonds,625.0,gold
+50,1068,49,Male,Salaried,4316,34528,57,Loans,Bulawayo,USD,Rejected,Real Estate,390.0,platinum
+51,1070,46,Female,Business Owner,8183,8183,33,Loans,Masvingo,USD,Rejected,Bonds,465.0,silver
+52,1071,64,Male,Business Owner,1777,8885,10,Loans,Masvingo,USD,Pending,Mutual Funds,513.0,bronze
+53,1072,54,Male,Salaried,832,4992,37,Loans,Harare,ZWL,Pending,Mutual Funds,634.0,silver
+54,1075,34,Male,Civil Servant,661,6610,30,Loans,Kwekwe,USD,Rejected,Real Estate,,silver
+55,1076,51,Male,Business Owner,1525,9150,27,Investments,Masvingo,ZWL,Pending,Stocks,588.0,gold
+56,1077,68,Male,Civil Servant,1348,5392,39,Loans,Mutare,USD,Pending,Mutual Funds,538.0,silver
+57,1079,28,Female,Retired,892,7136,54,Savings,Gweru,ZWL,Approved,Mutual Funds,465.0,silver
+58,1081,43,Male,Business Owner,6602,72622,12,Savings,Gweru,USD,Pending,Bonds,672.0,gold
+59,1082,60,Female,Business Owner,8506,51036,55,Loans,Bulawayo,USD,Pending,Mutual Funds,777.0,platinum
+60,1083,41,Male,Business Owner,4983,29898,29,Savings,Bulawayo,USD,Pending,Bonds,778.0,gold
+61,1084,36,Female,Salaried,2594,20752,33,Investments,Masvingo,ZiG,Approved,Mutual Funds,599.0,platinum
+62,1085,65,Female,Salaried,1090,5450,43,Savings,Kwekwe,USD,Rejected,Stocks,381.0,silver
+63,1086,38,Female,Civil Servant,1372,4116,53,Investments,Bulawayo,USD,Pending,Real Estate,386.0,silver
+64,1087,67,Female,Salaried,3773,11319,15,Investments,Masvingo,USD,Rejected,Bonds,524.0,gold
+65,1089,46,Female,Business Owner,9105,18210,52,Loans,Bulawayo,USD,Rejected,Stocks,657.0,platinum
+66,1090,45,Male,Business Owner,4106,24636,39,Savings,Harare,USD,Approved,Mutual Funds,462.0,platinum
+67,1091,65,Male,Retired,358,2148,53,Investments,Harare,USD,Rejected,Bonds,813.0,silver
+68,1092,61,Female,Business Owner,6281,50248,44,Investments,Kwekwe,USD,Pending,Mutual Funds,649.0,platinum
+69,1093,49,Male,Civil Servant,1093,7651,54,Savings,Bulawayo,ZWL,Approved,Mutual Funds,763.0,silver
+70,1094,35,Female,Retired,952,7616,18,Investments,Harare,USD,Pending,Mutual Funds,,bronze
+71,1095,65,Male,Civil Servant,304,2736,3,Savings,Kwekwe,ZiG,Pending,Real Estate,391.0,bronze
+72,1096,21,Male,Retired,795,4770,7,Savings,Kwekwe,ZWL,Approved,Real Estate,480.0,bronze
+73,1098,27,Male,Student,103,1030,18,Savings,Kwekwe,USD,Pending,Bonds,488.0,bronze
+74,1099,29,Female,Business Owner,3196,9588,44,Loans,Bulawayo,ZWL,Approved,Stocks,,silver
+75,1100,44,Male,Business Owner,3446,37906,38,Loans,Bulawayo,USD,Pending,Stocks,792.0,platinum
+76,1101,21,Male,Civil Servant,314,314,37,Investments,Gweru,USD,Rejected,Stocks,427.0,silver
+77,1102,64,Male,Student,273,3003,58,Loans,Harare,USD,Pending,Mutual Funds,818.0,silver
+78,1103,28,Male,Retired,772,3860,33,Savings,Mutare,USD,Rejected,Real Estate,725.0,silver
+79,1104,44,Female,Business Owner,6741,26964,44,Savings,Bulawayo,ZiG,Pending,Bonds,486.0,platinum
+80,1105,31,Male,Salaried,3100,27900,59,Investments,Harare,ZiG,Approved,Mutual Funds,849.0,platinum
+81,1106,37,Female,Student,439,3951,31,Investments,Kwekwe,ZiG,Approved,Real Estate,752.0,silver
+82,1107,28,Female,Salaried,4245,21225,58,Savings,Masvingo,USD,Pending,Real Estate,770.0,platinum
+83,1108,55,Female,Civil Servant,897,8970,11,Investments,Bulawayo,USD,Approved,Bonds,523.0,bronze
+84,1109,55,Female,Retired,645,2580,4,Investments,Kwekwe,USD,Pending,Bonds,453.0,bronze
+85,1110,53,Female,Salaried,2949,20643,59,Investments,Kwekwe,USD,Approved,Bonds,650.0,platinum
+86,1111,25,Female,Salaried,2532,15192,18,Savings,Kwekwe,USD,Rejected,Mutual Funds,446.0,gold
+87,1113,59,Male,Business Owner,3257,32570,49,Savings,Kwekwe,USD,Rejected,Bonds,481.0,platinum
+88,1115,48,Male,Salaried,1716,1716,29,Investments,Mutare,USD,Pending,Mutual Funds,338.0,silver
+89,1117,29,Female,Business Owner,1992,7968,22,Savings,Kwekwe,USD,Pending,Stocks,363.0,bronze
+90,1119,32,Male,Salaried,1219,7314,44,Savings,Gweru,USD,Pending,Bonds,671.0,silver
+91,1120,54,Male,Business Owner,9388,37552,6,Savings,Bulawayo,ZiG,Pending,Mutual Funds,822.0,gold
+92,1121,53,Female,Business Owner,7974,7974,42,Savings,Harare,ZiG,Approved,Bonds,396.0,silver
+93,1122,68,Female,Civil Servant,632,632,25,Savings,Masvingo,ZWL,Pending,Stocks,741.0,bronze
+94,1123,43,Male,Civil Servant,349,349,55,Savings,Masvingo,USD,Pending,Bonds,,silver
+95,1124,44,Female,Retired,722,5776,57,Savings,Harare,USD,Rejected,Bonds,710.0,silver
+96,1125,57,Female,Business Owner,6458,64580,21,Investments,Bulawayo,USD,Pending,Bonds,320.0,gold
+97,1126,55,Male,Business Owner,4243,33944,55,Loans,Masvingo,ZiG,Approved,Real Estate,,platinum
+98,1127,64,Female,Salaried,3093,6186,59,Investments,Gweru,USD,Rejected,Stocks,345.0,silver
+99,1128,60,Female,Salaried,956,10516,16,Savings,Harare,ZiG,Rejected,Bonds,365.0,gold
+100,1129,42,Male,Salaried,1469,10283,31,Investments,Mutare,USD,Approved,Bonds,463.0,silver
+101,1130,47,Male,Student,423,3384,14,Savings,Bulawayo,ZWL,Rejected,Bonds,410.0,bronze
+102,1131,55,Male,Student,203,1624,39,Investments,Harare,ZWL,Rejected,Mutual Funds,637.0,silver
+103,1132,21,Male,Student,439,4829,28,Savings,Masvingo,USD,Rejected,Real Estate,422.0,silver
+104,1133,55,Female,Civil Servant,919,9190,32,Loans,Bulawayo,USD,Rejected,Mutual Funds,746.0,silver
+105,1134,57,Female,Salaried,1482,16302,28,Savings,Gweru,USD,Approved,Real Estate,590.0,gold
+106,1135,67,Male,Salaried,1396,9772,51,Investments,Bulawayo,USD,Approved,Bonds,711.0,silver
+107,1136,34,Male,Salaried,4242,21210,55,Loans,Bulawayo,USD,Rejected,Stocks,580.0,platinum
+108,1139,25,Female,Salaried,844,5908,58,Investments,Gweru,USD,Approved,Bonds,,silver
+109,1140,46,Male,Business Owner,4395,8790,45,Loans,Bulawayo,USD,Approved,Mutual Funds,509.0,silver
+110,1141,34,Male,Salaried,1529,9174,22,Savings,Gweru,USD,Rejected,Stocks,425.0,gold
+111,1142,59,Male,Retired,446,892,32,Savings,Kwekwe,USD,Rejected,Real Estate,791.0,silver
+112,1143,47,Female,Civil Servant,819,819,5,Savings,Harare,USD,Pending,Bonds,808.0,bronze
+113,1144,29,Male,Business Owner,4712,32984,23,Investments,Gweru,ZiG,Approved,Stocks,557.0,gold
+114,1145,35,Female,Student,411,822,5,Investments,Gweru,USD,Rejected,Stocks,487.0,bronze
+115,1146,35,Male,Civil Servant,307,614,42,Savings,Bulawayo,ZiG,Approved,Real Estate,529.0,silver
+116,1147,46,Female,Business Owner,4923,54153,53,Investments,Harare,USD,Rejected,Stocks,488.0,platinum
+117,1148,62,Female,Salaried,2619,13095,32,Savings,Mutare,USD,Approved,Mutual Funds,714.0,platinum
+118,1149,33,Male,Salaried,4882,24410,59,Loans,Mutare,USD,Rejected,Mutual Funds,309.0,platinum
+119,1150,52,Male,Business Owner,5167,36169,10,Investments,Masvingo,USD,Pending,Mutual Funds,413.0,gold
+120,1151,59,Female,Student,137,137,59,Loans,Gweru,USD,Pending,Stocks,375.0,silver
+121,1152,69,Female,Salaried,3401,27208,39,Loans,Gweru,USD,Approved,Mutual Funds,801.0,platinum
+122,1153,52,Male,Retired,292,876,58,Loans,Harare,USD,Rejected,Real Estate,384.0,silver
+123,1154,24,Male,Salaried,685,2740,15,Loans,Kwekwe,USD,Rejected,Stocks,348.0,bronze
+124,1156,57,Female,Salaried,4219,16876,29,Loans,Masvingo,ZiG,Rejected,Stocks,686.0,gold
+125,1157,43,Male,Business Owner,3136,31360,59,Savings,Harare,USD,Approved,Real Estate,688.0,platinum
+126,1159,65,Male,Student,205,1435,3,Investments,Mutare,ZiG,Approved,Stocks,645.0,bronze
+127,1160,35,Female,Salaried,4609,18436,19,Loans,Masvingo,USD,Rejected,Mutual Funds,529.0,gold
+128,1161,63,Male,Civil Servant,470,470,10,Savings,Bulawayo,ZiG,Approved,Bonds,554.0,bronze
+129,1162,49,Male,Business Owner,9648,86832,28,Savings,Mutare,USD,Rejected,Bonds,535.0,gold
+130,1163,56,Male,Business Owner,3717,14868,29,Savings,Masvingo,USD,Pending,Mutual Funds,,gold
+131,1164,33,Female,Business Owner,6467,58203,15,Savings,Harare,ZWL,Rejected,Bonds,560.0,gold
+132,1165,52,Male,Salaried,2969,17814,35,Savings,Bulawayo,USD,Approved,Bonds,570.0,platinum
+133,1166,27,Male,Business Owner,5138,5138,6,Investments,Masvingo,ZiG,Pending,Mutual Funds,422.0,bronze
+134,1167,42,Male,Salaried,3103,9309,12,Investments,Masvingo,USD,Rejected,Mutual Funds,,gold
+135,1168,48,Male,Salaried,1543,16973,47,Savings,Gweru,USD,Pending,Stocks,720.0,platinum
+136,1169,22,Female,Salaried,3437,6874,38,Loans,Kwekwe,ZiG,Rejected,Stocks,558.0,silver
+137,1170,62,Male,Business Owner,5944,53496,13,Savings,Mutare,USD,Pending,Mutual Funds,346.0,gold
+138,1171,65,Female,Salaried,4547,4547,29,Loans,Gweru,ZiG,Approved,Real Estate,,silver
+139,1172,26,Female,Student,190,1710,19,Investments,Bulawayo,USD,Rejected,Bonds,507.0,bronze
+140,1173,48,Male,Civil Servant,1496,13464,3,Savings,Kwekwe,USD,Rejected,Stocks,610.0,gold
+141,1174,48,Male,Salaried,4705,37640,8,Investments,Masvingo,USD,Approved,Bonds,448.0,gold
+142,1176,64,Male,Student,314,3454,55,Investments,Kwekwe,USD,Approved,Mutual Funds,454.0,silver
+143,1177,40,Male,Civil Servant,966,966,58,Savings,Mutare,USD,Approved,Real Estate,389.0,silver
+144,1181,45,Male,Salaried,3252,9756,51,Savings,Bulawayo,USD,Rejected,Mutual Funds,755.0,silver
+145,1182,59,Female,Civil Servant,626,6886,21,Savings,Harare,USD,Rejected,Stocks,498.0,bronze
+146,1183,53,Male,Business Owner,5324,37268,3,Loans,Gweru,USD,Approved,Mutual Funds,785.0,gold
+147,1184,21,Female,Student,372,4092,45,Investments,Bulawayo,USD,Rejected,Stocks,832.0,silver
+148,1187,61,Female,Business Owner,2128,21280,16,Investments,Gweru,ZiG,Rejected,Real Estate,747.0,gold
+149,1188,23,Male,Business Owner,9278,46390,13,Savings,Bulawayo,ZiG,Rejected,Stocks,547.0,gold
+150,1190,26,Male,Civil Servant,1017,8136,48,Loans,Gweru,USD,Approved,Bonds,357.0,silver
+151,1191,28,Male,Salaried,4969,34783,9,Loans,Bulawayo,USD,Rejected,Real Estate,601.0,gold
+152,1192,47,Female,Salaried,715,5720,14,Investments,Kwekwe,USD,Rejected,Mutual Funds,330.0,bronze
+153,1193,29,Male,Civil Servant,1160,6960,13,Investments,Harare,ZiG,Pending,Real Estate,797.0,bronze
+154,1194,57,Male,Business Owner,2192,13152,53,Savings,Harare,USD,Approved,Bonds,548.0,platinum
+155,1195,53,Male,Civil Servant,1414,2828,57,Savings,Masvingo,USD,Approved,Stocks,570.0,silver
+156,1196,62,Female,Business Owner,2605,15630,7,Investments,Gweru,USD,Approved,Mutual Funds,693.0,gold
+157,1197,64,Male,Student,373,1865,15,Savings,Kwekwe,USD,Approved,Mutual Funds,801.0,bronze
+158,1198,44,Female,Salaried,3608,10824,7,Savings,Bulawayo,USD,Rejected,Stocks,383.0,gold
+159,1199,35,Male,Business Owner,3661,21966,38,Savings,Bulawayo,USD,Rejected,Real Estate,664.0,platinum
+160,1201,52,Female,Salaried,4299,38691,41,Loans,Kwekwe,USD,Pending,Real Estate,641.0,platinum
+161,1202,44,Female,Civil Servant,614,614,22,Loans,Masvingo,ZiG,Approved,Bonds,706.0,bronze
+162,1204,69,Male,Civil Servant,404,1212,49,Loans,Harare,USD,Pending,Real Estate,392.0,silver
+163,1205,69,Female,Business Owner,3413,37543,37,Investments,Masvingo,USD,Approved,Stocks,711.0,platinum
+164,1206,32,Male,Business Owner,7020,56160,44,Investments,Gweru,USD,Approved,Bonds,731.0,platinum
+165,1207,59,Male,Business Owner,3272,3272,1,Investments,Bulawayo,USD,Pending,Bonds,458.0,bronze
+166,1208,22,Male,Salaried,2560,12800,10,Savings,Gweru,USD,Rejected,Bonds,313.0,gold
+167,1210,69,Male,Salaried,3471,6942,16,Investments,Mutare,USD,Pending,Mutual Funds,524.0,bronze
+168,1212,69,Female,Salaried,3235,9705,8,Savings,Mutare,USD,Rejected,Real Estate,372.0,gold
+169,1213,37,Female,Retired,481,3367,56,Savings,Masvingo,USD,Approved,Mutual Funds,548.0,silver
+170,1214,69,Female,Civil Servant,702,7722,49,Savings,Harare,ZiG,Approved,Real Estate,810.0,silver
+171,1215,22,Female,Retired,308,308,25,Savings,Gweru,USD,Pending,Mutual Funds,515.0,bronze
+172,1217,48,Female,Business Owner,8970,26910,12,Loans,Mutare,USD,Approved,Bonds,519.0,gold
+173,1218,43,Female,Retired,526,4208,25,Savings,Gweru,ZiG,Pending,Stocks,520.0,bronze
+174,1219,57,Female,Civil Servant,453,2718,17,Savings,Mutare,ZiG,Rejected,Bonds,688.0,bronze
+175,1221,53,Male,Civil Servant,1090,6540,46,Investments,Bulawayo,USD,Approved,Mutual Funds,582.0,silver
+176,1222,21,Male,Retired,283,1981,48,Investments,Kwekwe,USD,Approved,Bonds,357.0,silver
+177,1224,22,Male,Civil Servant,927,2781,41,Investments,Kwekwe,USD,Pending,Real Estate,372.0,silver
+178,1225,64,Female,Salaried,3780,15120,36,Loans,Masvingo,USD,Rejected,Stocks,,platinum
+179,1226,46,Female,Salaried,4916,19664,57,Savings,Harare,ZiG,Approved,Bonds,725.0,platinum
+180,1227,52,Female,Salaried,4575,27450,23,Loans,Masvingo,USD,Approved,Mutual Funds,424.0,gold
+181,1228,26,Male,Retired,752,7520,43,Loans,Gweru,USD,Pending,Real Estate,366.0,silver
+182,1230,24,Female,Retired,346,3806,47,Savings,Gweru,USD,Pending,Stocks,613.0,silver
+183,1231,31,Female,Business Owner,2114,8456,5,Investments,Gweru,USD,Rejected,Mutual Funds,625.0,bronze
+184,1234,44,Male,Civil Servant,1135,11350,18,Investments,Harare,USD,Approved,Bonds,301.0,gold
+185,1235,25,Female,Civil Servant,570,570,13,Savings,Kwekwe,ZiG,Approved,Bonds,503.0,bronze
+186,1236,54,Male,Retired,620,5580,43,Savings,Kwekwe,USD,Pending,Mutual Funds,703.0,silver
+187,1238,42,Female,Salaried,3954,27678,28,Investments,Gweru,ZiG,Approved,Bonds,,gold
+188,1239,31,Male,Business Owner,5107,15321,18,Savings,Mutare,ZiG,Pending,Stocks,667.0,gold
+189,1240,68,Female,Salaried,3183,31830,59,Loans,Mutare,USD,Rejected,Stocks,511.0,platinum
+190,1242,53,Female,Civil Servant,589,4712,28,Investments,Harare,ZiG,Rejected,Bonds,416.0,silver
+191,1243,29,Male,Business Owner,9620,76960,51,Savings,Bulawayo,ZiG,Pending,Mutual Funds,777.0,platinum
+192,1244,26,Female,Business Owner,8114,89254,56,Loans,Harare,USD,Approved,Mutual Funds,404.0,platinum
+193,1245,36,Female,Civil Servant,927,927,27,Investments,Gweru,ZiG,Pending,Mutual Funds,794.0,bronze
+194,1246,49,Male,Business Owner,1778,17780,32,Savings,Gweru,ZWL,Pending,Stocks,345.0,platinum
+195,1247,23,Female,Business Owner,2080,4160,47,Investments,Bulawayo,ZiG,Approved,Bonds,630.0,silver
+196,1248,40,Female,Business Owner,6458,51664,9,Loans,Masvingo,USD,Approved,Bonds,515.0,gold
+197,1249,56,Male,Business Owner,9945,9945,40,Savings,Masvingo,USD,Approved,Stocks,791.0,silver
+198,1250,39,Male,Business Owner,5776,46208,32,Investments,Bulawayo,USD,Rejected,Mutual Funds,748.0,platinum
+199,1251,46,Male,Salaried,1424,11392,20,Savings,Masvingo,USD,Pending,Mutual Funds,835.0,gold
+200,1253,39,Female,Retired,899,3596,33,Investments,Masvingo,USD,Pending,Real Estate,757.0,silver
+201,1254,40,Female,Salaried,1980,11880,4,Investments,Masvingo,USD,Rejected,Bonds,846.0,gold
+202,1255,52,Male,Civil Servant,979,10769,46,Loans,Masvingo,ZWL,Rejected,Bonds,835.0,silver
+203,1256,27,Male,Business Owner,8034,72306,57,Loans,Mutare,USD,Approved,Bonds,839.0,platinum
+204,1257,61,Female,Business Owner,4656,37248,34,Savings,Masvingo,USD,Approved,Real Estate,783.0,platinum
+205,1259,60,Male,Business Owner,7134,49938,3,Loans,Mutare,USD,Approved,Real Estate,542.0,gold
+206,1260,59,Female,Salaried,983,8847,26,Investments,Bulawayo,USD,Pending,Mutual Funds,506.0,gold
+207,1261,38,Female,Salaried,941,1882,8,Savings,Harare,ZWL,Approved,Mutual Funds,570.0,bronze
+208,1262,60,Female,Civil Servant,1143,3429,6,Loans,Bulawayo,USD,Pending,Bonds,414.0,bronze
+209,1263,21,Female,Business Owner,4609,46090,16,Investments,Harare,USD,Pending,Stocks,598.0,gold
+210,1264,31,Male,Salaried,4682,37456,24,Loans,Bulawayo,USD,Pending,Bonds,782.0,gold
+211,1265,48,Female,Civil Servant,719,4314,48,Loans,Kwekwe,USD,Pending,Stocks,696.0,silver
+212,1266,45,Male,Business Owner,4740,47400,39,Loans,Harare,USD,Rejected,Real Estate,,platinum
+213,1267,43,Male,Civil Servant,605,5445,30,Savings,Harare,USD,Pending,Mutual Funds,374.0,silver
+214,1268,51,Male,Civil Servant,1001,10010,45,Loans,Gweru,USD,Approved,Stocks,781.0,silver
+215,1269,50,Male,Student,406,1624,13,Loans,Harare,ZiG,Rejected,Real Estate,402.0,bronze
+216,1270,62,Female,Business Owner,8180,65440,5,Investments,Harare,USD,Rejected,Mutual Funds,596.0,gold
+217,1271,55,Male,Retired,311,3110,25,Savings,Gweru,USD,Pending,Stocks,477.0,bronze
+218,1272,27,Male,Salaried,805,2415,20,Loans,Masvingo,ZiG,Rejected,Bonds,514.0,bronze
+219,1273,36,Male,Salaried,4050,12150,54,Investments,Masvingo,USD,Pending,Bonds,614.0,platinum
+220,1274,46,Male,Business Owner,8714,69712,18,Loans,Gweru,USD,Approved,Bonds,338.0,gold
+221,1275,68,Female,Civil Servant,803,4015,47,Investments,Mutare,USD,Pending,Real Estate,558.0,silver
+222,1276,69,Male,Business Owner,6641,19923,18,Investments,Harare,USD,Rejected,Bonds,306.0,gold
+223,1278,21,Male,Business Owner,4208,46288,10,Investments,Gweru,USD,Pending,Mutual Funds,837.0,gold
+224,1279,68,Female,Retired,952,952,55,Investments,Gweru,USD,Approved,Real Estate,460.0,silver
+225,1280,32,Female,Civil Servant,571,1713,45,Loans,Mutare,USD,Approved,Bonds,475.0,silver
+226,1281,25,Male,Civil Servant,1237,11133,50,Investments,Kwekwe,USD,Rejected,Mutual Funds,301.0,platinum
+227,1282,57,Female,Salaried,3873,19365,47,Loans,Masvingo,USD,Approved,Stocks,754.0,platinum
+228,1283,52,Male,Business Owner,6038,60380,12,Savings,Bulawayo,ZiG,Rejected,Bonds,,gold
+229,1284,29,Male,Civil Servant,461,922,47,Savings,Kwekwe,ZWL,Approved,Mutual Funds,797.0,silver
+230,1286,55,Male,Business Owner,5222,10444,50,Savings,Harare,USD,Approved,Stocks,,silver
+231,1288,68,Female,Student,263,1841,57,Savings,Gweru,USD,Pending,Mutual Funds,487.0,silver
+232,1290,23,Female,Civil Servant,1084,7588,11,Savings,Masvingo,USD,Pending,Mutual Funds,846.0,bronze
+233,1291,40,Male,Student,373,2611,19,Investments,Mutare,USD,Approved,Mutual Funds,411.0,bronze
+234,1293,53,Female,Salaried,752,4512,39,Savings,Kwekwe,USD,Pending,Mutual Funds,335.0,silver
+235,1294,44,Female,Student,172,1548,53,Loans,Harare,ZWL,Pending,Bonds,738.0,silver
+236,1295,31,Female,Business Owner,4300,8600,26,Investments,Bulawayo,USD,Rejected,Mutual Funds,624.0,gold
+237,1296,69,Male,Civil Servant,862,2586,46,Savings,Mutare,USD,Pending,Real Estate,606.0,silver
+238,1297,28,Female,Salaried,4475,44750,14,Loans,Mutare,USD,Rejected,Mutual Funds,833.0,gold
+239,1298,56,Male,Salaried,1704,8520,54,Investments,Bulawayo,USD,Pending,Real Estate,408.0,silver
+240,1299,58,Male,Civil Servant,788,7092,45,Savings,Mutare,USD,Approved,Mutual Funds,671.0,silver
+241,1300,60,Male,Student,432,1728,44,Savings,Mutare,USD,Pending,Mutual Funds,656.0,silver
+242,1302,55,Male,Business Owner,8861,35444,41,Loans,Masvingo,ZiG,Approved,Bonds,655.0,platinum
+243,1303,68,Female,Retired,303,1818,1,Investments,Bulawayo,ZiG,Approved,Bonds,367.0,bronze
+244,1304,45,Female,Business Owner,5354,26770,51,Savings,Harare,ZWL,Rejected,Stocks,591.0,platinum
+245,1307,49,Female,Salaried,3672,22032,22,Loans,Mutare,USD,Approved,Bonds,733.0,gold
+246,1309,66,Male,Student,456,4560,56,Savings,Bulawayo,USD,Pending,Bonds,833.0,silver
+247,1311,22,Male,Civil Servant,808,7272,19,Savings,Masvingo,ZiG,Rejected,Mutual Funds,320.0,bronze
+248,1312,55,Female,Business Owner,3161,15805,18,Loans,Mutare,USD,Rejected,Bonds,683.0,gold
+249,1313,36,Female,Student,362,2896,12,Savings,Gweru,USD,Pending,Bonds,338.0,bronze
+250,1314,61,Male,Student,130,1170,55,Savings,Bulawayo,USD,Rejected,Real Estate,584.0,silver
+251,1317,24,Male,Business Owner,4024,24144,59,Investments,Masvingo,ZiG,Approved,Bonds,542.0,platinum
+252,1318,53,Female,Business Owner,3620,3620,33,Savings,Kwekwe,ZiG,Approved,Mutual Funds,372.0,silver
+253,1319,34,Male,Business Owner,6760,74360,19,Investments,Harare,ZWL,Pending,Mutual Funds,778.0,gold
+254,1320,41,Male,Salaried,4957,34699,28,Savings,Bulawayo,ZiG,Pending,Mutual Funds,400.0,gold
+255,1322,40,Female,Salaried,1931,21241,52,Savings,Harare,USD,Pending,Real Estate,475.0,platinum
+256,1323,28,Female,Business Owner,3792,7584,49,Savings,Bulawayo,USD,Pending,Bonds,537.0,silver
+257,1324,27,Female,Salaried,2138,10690,37,Loans,Mutare,USD,Pending,Stocks,358.0,silver
+258,1325,23,Female,Business Owner,4908,14724,26,Investments,Bulawayo,USD,Rejected,Real Estate,398.0,gold
+259,1326,37,Male,Business Owner,9242,55452,35,Loans,Masvingo,ZWL,Pending,Stocks,794.0,platinum
+260,1327,53,Male,Salaried,1160,9280,34,Savings,Mutare,USD,Rejected,Real Estate,813.0,silver
+261,1328,68,Female,Salaried,1699,11893,35,Savings,Gweru,ZiG,Rejected,Mutual Funds,596.0,platinum
+262,1330,42,Female,Student,158,1264,16,Investments,Bulawayo,USD,Pending,Stocks,422.0,bronze
+263,1331,42,Female,Salaried,2830,5660,38,Loans,Masvingo,ZWL,Rejected,Real Estate,528.0,silver
+264,1333,50,Female,Retired,264,2376,23,Investments,Kwekwe,USD,Pending,Stocks,439.0,bronze
+265,1334,58,Female,Salaried,4520,18080,54,Loans,Harare,USD,Pending,Bonds,840.0,platinum
+266,1335,58,Female,Business Owner,8606,8606,22,Savings,Harare,USD,Rejected,Real Estate,690.0,gold
+267,1336,65,Female,Retired,673,5384,16,Loans,Harare,USD,Rejected,Bonds,569.0,bronze
+268,1337,28,Female,Business Owner,4671,32697,28,Investments,Masvingo,USD,Rejected,Mutual Funds,311.0,gold
+269,1338,47,Male,Civil Servant,1163,12793,48,Investments,Harare,USD,Approved,Bonds,688.0,platinum
+270,1339,47,Female,Salaried,1751,8755,35,Loans,Harare,ZiG,Rejected,Bonds,636.0,silver
+271,1340,54,Male,Salaried,968,9680,45,Savings,Gweru,ZiG,Approved,Real Estate,805.0,silver
+272,1341,41,Female,Salaried,642,3210,46,Loans,Harare,USD,Pending,Mutual Funds,405.0,silver
+273,1342,50,Female,Civil Servant,787,5509,8,Loans,Bulawayo,USD,Pending,Bonds,331.0,bronze
+274,1344,48,Male,Business Owner,2793,22344,55,Savings,Masvingo,USD,Pending,Stocks,470.0,platinum
+275,1345,67,Male,Civil Servant,973,10703,55,Investments,Mutare,USD,Pending,Bonds,368.0,silver
+276,1346,53,Male,Salaried,3986,23916,22,Investments,Kwekwe,USD,Pending,Mutual Funds,661.0,gold
+277,1347,25,Female,Business Owner,4472,22360,21,Loans,Gweru,ZiG,Pending,Bonds,732.0,gold
+278,1348,68,Male,Retired,367,3303,26,Loans,Masvingo,USD,Approved,Stocks,399.0,bronze
+279,1349,39,Male,Salaried,2986,32846,40,Investments,Masvingo,USD,Approved,Mutual Funds,308.0,platinum
+280,1350,24,Male,Retired,392,784,21,Savings,Bulawayo,USD,Rejected,Real Estate,328.0,bronze
+281,1351,55,Female,Civil Servant,582,582,25,Savings,Kwekwe,USD,Rejected,Mutual Funds,413.0,bronze
+282,1352,69,Female,Civil Servant,689,5512,41,Loans,Kwekwe,USD,Rejected,Real Estate,761.0,silver
+283,1353,37,Male,Salaried,1599,4797,1,Investments,Harare,USD,Pending,Mutual Funds,442.0,bronze
+284,1354,64,Male,Student,62,682,6,Savings,Bulawayo,ZiG,Pending,Stocks,689.0,bronze
+285,1355,48,Male,Business Owner,3355,23485,23,Investments,Harare,ZWL,Approved,Stocks,456.0,gold
+286,1356,50,Female,Civil Servant,958,9580,51,Savings,Harare,USD,Approved,Mutual Funds,634.0,silver
+287,1357,49,Female,Business Owner,4263,46893,23,Loans,Masvingo,USD,Rejected,Bonds,559.0,gold
+288,1358,66,Male,Salaried,4263,34104,43,Savings,Kwekwe,USD,Approved,Stocks,381.0,platinum
+289,1359,26,Female,Salaried,2081,12486,43,Savings,Harare,ZiG,Approved,Real Estate,740.0,platinum
+290,1360,55,Male,Student,138,1380,23,Savings,Gweru,ZiG,Approved,Real Estate,471.0,bronze
+291,1362,57,Male,Business Owner,8762,61334,30,Investments,Kwekwe,USD,Approved,Real Estate,374.0,platinum
+292,1364,49,Male,Civil Servant,727,3635,43,Loans,Masvingo,USD,Rejected,Mutual Funds,361.0,silver
+293,1365,69,Female,Salaried,3822,30576,18,Investments,Bulawayo,USD,Approved,Mutual Funds,619.0,gold
+294,1366,66,Female,Business Owner,4593,9186,23,Savings,Mutare,USD,Rejected,Mutual Funds,401.0,gold
+295,1367,51,Male,Civil Servant,1182,8274,15,Savings,Harare,USD,Pending,Bonds,728.0,bronze
+296,1368,55,Female,Salaried,4668,18672,33,Savings,Mutare,USD,Approved,Bonds,554.0,platinum
+297,1370,41,Male,Business Owner,4777,4777,57,Savings,Bulawayo,USD,Rejected,Real Estate,411.0,silver
+298,1371,52,Male,Salaried,974,6818,39,Savings,Masvingo,USD,Rejected,Real Estate,612.0,silver
+299,1372,43,Female,Salaried,4297,25782,23,Loans,Gweru,USD,Pending,Mutual Funds,760.0,gold
+300,1373,53,Male,Civil Servant,1314,10512,27,Investments,Gweru,USD,Rejected,Stocks,761.0,gold
+301,1374,23,Male,Salaried,3850,19250,45,Loans,Bulawayo,USD,Approved,Bonds,391.0,platinum
+302,1375,38,Female,Civil Servant,799,799,44,Investments,Masvingo,USD,Pending,Bonds,,silver
+303,1376,45,Male,Business Owner,6059,6059,18,Savings,Masvingo,ZiG,Approved,Mutual Funds,819.0,bronze
+304,1377,62,Male,Retired,323,2907,24,Savings,Kwekwe,USD,Pending,Bonds,397.0,bronze
+305,1378,51,Male,Salaried,712,7120,51,Savings,Harare,USD,Rejected,Mutual Funds,535.0,silver
+306,1380,60,Male,Civil Servant,1449,14490,40,Investments,Bulawayo,USD,Pending,Real Estate,533.0,platinum
+307,1381,66,Male,Business Owner,1639,8195,51,Savings,Kwekwe,ZiG,Approved,Stocks,,silver
+308,1382,44,Male,Business Owner,2924,2924,42,Investments,Mutare,USD,Rejected,Real Estate,588.0,silver
+309,1383,52,Male,Retired,296,1776,7,Savings,Gweru,ZWL,Approved,Real Estate,841.0,bronze
+310,1385,42,Male,Civil Servant,868,2604,48,Savings,Masvingo,ZiG,Approved,Bonds,503.0,silver
+311,1386,43,Female,Salaried,1487,11896,20,Loans,Bulawayo,USD,Pending,Stocks,328.0,gold
+312,1387,22,Male,Civil Servant,1382,1382,27,Investments,Gweru,USD,Approved,Bonds,773.0,bronze
+313,1388,47,Male,Business Owner,4604,4604,6,Savings,Mutare,USD,Rejected,Real Estate,552.0,bronze
+314,1389,62,Male,Salaried,649,3894,27,Investments,Harare,USD,Rejected,Mutual Funds,685.0,bronze
+315,1390,22,Male,Student,417,4170,9,Savings,Harare,ZiG,Pending,Real Estate,361.0,bronze
+316,1391,46,Male,Civil Servant,318,318,53,Investments,Kwekwe,ZiG,Rejected,Bonds,814.0,silver
+317,1392,37,Female,Salaried,2073,12438,45,Savings,Gweru,USD,Approved,Real Estate,729.0,platinum
+318,1393,60,Male,Salaried,4661,4661,57,Loans,Mutare,USD,Pending,Mutual Funds,836.0,silver
+319,1395,29,Male,Salaried,1051,3153,21,Loans,Bulawayo,ZiG,Rejected,Bonds,599.0,bronze
+320,1396,63,Female,Civil Servant,588,4704,26,Investments,Harare,USD,Approved,Real Estate,610.0,bronze
+321,1397,68,Female,Civil Servant,1464,8784,40,Loans,Mutare,USD,Approved,Bonds,770.0,silver
+322,1399,49,Male,Business Owner,3938,3938,45,Investments,Masvingo,ZiG,Rejected,Real Estate,744.0,silver
+323,1400,62,Female,Civil Servant,514,2570,13,Loans,Kwekwe,USD,Approved,Real Estate,471.0,bronze
+324,1401,46,Male,Business Owner,7858,62864,49,Investments,Gweru,ZiG,Pending,Bonds,330.0,platinum
+325,1402,55,Male,Salaried,4074,12222,23,Savings,Mutare,ZiG,Rejected,Bonds,346.0,gold
+326,1403,45,Male,Student,177,1062,20,Loans,Kwekwe,USD,Rejected,Mutual Funds,429.0,bronze
+327,1405,33,Female,Civil Servant,660,3960,54,Savings,Harare,ZiG,Pending,Mutual Funds,357.0,silver
+328,1406,27,Female,Salaried,2015,20150,53,Investments,Masvingo,USD,Approved,Real Estate,405.0,platinum
+329,1407,56,Male,Salaried,801,801,28,Savings,Kwekwe,ZWL,Rejected,Bonds,629.0,bronze
+330,1408,65,Female,Business Owner,7660,53620,17,Investments,Masvingo,USD,Rejected,Real Estate,682.0,gold
+331,1409,40,Female,Salaried,2969,26721,28,Investments,Bulawayo,USD,Rejected,Real Estate,461.0,gold
+332,1410,21,Female,Salaried,1117,2234,41,Loans,Masvingo,ZWL,Pending,Stocks,585.0,silver
+333,1411,28,Female,Salaried,1941,19410,2,Savings,Bulawayo,USD,Approved,Stocks,370.0,gold
+334,1412,66,Female,Civil Servant,980,4900,25,Savings,Harare,USD,Rejected,Real Estate,753.0,bronze
+335,1413,36,Female,Salaried,2588,25880,58,Loans,Kwekwe,ZiG,Pending,Bonds,696.0,platinum
+336,1414,34,Female,Salaried,4145,16580,50,Investments,Bulawayo,USD,Rejected,Real Estate,814.0,platinum
+337,1415,32,Male,Salaried,4402,26412,41,Savings,Kwekwe,USD,Approved,Stocks,325.0,platinum
+338,1416,43,Male,Business Owner,7308,43848,6,Investments,Kwekwe,USD,Rejected,Bonds,612.0,gold
+339,1417,35,Female,Salaried,3875,42625,11,Investments,Bulawayo,ZiG,Approved,Real Estate,,gold
+340,1420,22,Male,Business Owner,9899,39596,6,Investments,Bulawayo,ZiG,Rejected,Real Estate,487.0,gold
+341,1421,52,Male,Salaried,3233,3233,45,Savings,Harare,ZiG,Approved,Bonds,783.0,silver
+342,1422,43,Male,Civil Servant,465,4185,11,Savings,Kwekwe,USD,Pending,Real Estate,749.0,bronze
+343,1423,42,Male,Salaried,4717,33019,14,Investments,Mutare,USD,Approved,Real Estate,822.0,gold
+344,1424,45,Female,Salaried,753,5271,2,Investments,Bulawayo,USD,Rejected,Stocks,653.0,bronze
+345,1426,42,Female,Business Owner,3018,33198,3,Savings,Kwekwe,ZiG,Pending,Stocks,577.0,gold
+346,1427,69,Female,Retired,429,1287,55,Savings,Gweru,ZiG,Approved,Stocks,790.0,silver
+347,1428,62,Male,Salaried,3200,3200,53,Loans,Harare,USD,Approved,Real Estate,554.0,silver
+348,1429,26,Male,Salaried,2795,8385,35,Savings,Gweru,USD,Approved,Stocks,680.0,silver
+349,1431,63,Male,Business Owner,4349,17396,24,Loans,Bulawayo,USD,Approved,Stocks,563.0,gold
+350,1433,53,Male,Salaried,2342,7026,18,Investments,Bulawayo,USD,Rejected,Stocks,414.0,bronze
+351,1435,64,Female,Business Owner,5349,42792,52,Loans,Bulawayo,USD,Approved,Stocks,787.0,platinum
+352,1436,64,Female,Salaried,4768,38144,24,Savings,Harare,ZiG,Pending,Stocks,580.0,gold
+353,1437,25,Male,Salaried,4795,4795,45,Investments,Mutare,USD,Rejected,Bonds,574.0,silver
+354,1441,65,Female,Retired,612,612,25,Loans,Bulawayo,USD,Pending,Mutual Funds,326.0,bronze
+355,1442,52,Female,Salaried,1688,5064,45,Investments,Kwekwe,USD,Approved,Stocks,382.0,silver
+356,1444,67,Male,Student,203,1218,43,Investments,Kwekwe,USD,Rejected,Mutual Funds,466.0,silver
+357,1445,55,Male,Retired,465,4650,34,Loans,Masvingo,ZiG,Pending,Bonds,468.0,silver
+358,1448,33,Female,Salaried,1159,9272,34,Savings,Gweru,USD,Rejected,Mutual Funds,,silver
+359,1449,62,Male,Student,454,4994,29,Investments,Gweru,ZWL,Approved,Stocks,837.0,silver
+360,1450,50,Male,Salaried,1871,7484,19,Loans,Harare,USD,Rejected,Bonds,823.0,bronze
+361,1452,37,Female,Civil Servant,1167,2334,19,Investments,Kwekwe,ZiG,Pending,Stocks,405.0,bronze
+362,1453,39,Male,Salaried,1209,3627,25,Savings,Gweru,USD,Pending,Bonds,,bronze
+363,1454,48,Male,Student,463,2778,16,Investments,Mutare,USD,Pending,Real Estate,432.0,bronze
+364,1455,46,Male,Student,74,592,54,Savings,Gweru,USD,Pending,Real Estate,833.0,silver
+365,1456,57,Female,Civil Servant,583,4664,51,Investments,Masvingo,USD,Pending,Bonds,568.0,silver
+366,1457,46,Male,Business Owner,5896,64856,9,Loans,Masvingo,USD,Approved,Mutual Funds,711.0,gold
+367,1458,43,Male,Civil Servant,1391,12519,1,Savings,Masvingo,USD,Approved,Bonds,317.0,gold
+368,1459,29,Female,Business Owner,2316,16212,42,Investments,Bulawayo,ZWL,Pending,Bonds,416.0,platinum
+369,1460,32,Male,Business Owner,8804,17608,19,Savings,Gweru,ZWL,Rejected,Mutual Funds,443.0,gold
+370,1461,21,Female,Retired,363,2904,33,Savings,Bulawayo,ZiG,Rejected,Mutual Funds,721.0,silver
+371,1462,21,Female,Business Owner,1582,11074,34,Loans,Mutare,USD,Pending,Stocks,668.0,silver
+372,1463,67,Male,Salaried,2520,20160,16,Loans,Bulawayo,USD,Approved,Stocks,349.0,gold
+373,1464,54,Female,Student,187,561,44,Savings,Mutare,ZWL,Rejected,Mutual Funds,405.0,silver
+374,1465,52,Male,Salaried,4091,28637,40,Loans,Mutare,ZiG,Rejected,Real Estate,515.0,platinum
+375,1466,68,Female,Salaried,3744,37440,55,Loans,Mutare,USD,Rejected,Real Estate,724.0,platinum
+376,1467,45,Female,Student,286,2574,18,Loans,Kwekwe,USD,Pending,Bonds,371.0,bronze
+377,1469,65,Male,Civil Servant,917,9170,25,Savings,Kwekwe,USD,Rejected,Bonds,485.0,gold
+378,1470,21,Female,Student,465,2790,45,Loans,Gweru,USD,Rejected,Bonds,369.0,silver
+379,1472,59,Male,Civil Servant,561,1122,21,Savings,Gweru,USD,Approved,Mutual Funds,545.0,bronze
+380,1473,25,Female,Salaried,775,3875,58,Investments,Gweru,USD,Pending,Real Estate,,silver
+381,1474,42,Male,Salaried,3304,16520,6,Loans,Mutare,USD,Pending,Bonds,398.0,gold
+382,1476,23,Male,Retired,994,1988,41,Loans,Gweru,USD,Approved,Stocks,754.0,silver
+383,1477,32,Male,Salaried,2701,29711,48,Savings,Masvingo,USD,Pending,Bonds,403.0,platinum
+384,1478,46,Male,Business Owner,4990,34930,43,Savings,Gweru,USD,Rejected,Real Estate,532.0,platinum
+385,1479,36,Female,Business Owner,3279,16395,39,Investments,Masvingo,ZiG,Rejected,Mutual Funds,693.0,platinum
+386,1480,57,Male,Business Owner,9174,55044,31,Investments,Bulawayo,USD,Pending,Bonds,800.0,platinum
+387,1481,42,Female,Civil Servant,1450,11600,42,Investments,Kwekwe,USD,Rejected,Bonds,550.0,platinum
+388,1483,34,Female,Student,181,724,30,Savings,Kwekwe,ZiG,Rejected,Stocks,378.0,bronze
+389,1484,48,Female,Civil Servant,678,4746,57,Savings,Kwekwe,USD,Rejected,Stocks,351.0,silver
+390,1485,25,Male,Business Owner,9764,58584,52,Investments,Bulawayo,ZiG,Rejected,Mutual Funds,,platinum
+391,1486,67,Female,Civil Servant,1214,12140,18,Savings,Gweru,USD,Pending,Real Estate,350.0,gold
+392,1487,69,Male,Salaried,1459,2918,24,Savings,Harare,ZiG,Approved,Mutual Funds,485.0,bronze
+393,1488,50,Female,Salaried,4456,35648,52,Savings,Gweru,ZiG,Rejected,Bonds,333.0,platinum
+394,1489,66,Male,Civil Servant,342,3420,9,Investments,Gweru,USD,Pending,Bonds,430.0,bronze
+395,1490,25,Female,Retired,576,5184,31,Investments,Mutare,USD,Rejected,Stocks,742.0,silver
+396,1491,32,Male,Retired,240,1200,15,Loans,Mutare,USD,Approved,Real Estate,731.0,bronze
+397,1493,46,Female,Business Owner,5517,22068,40,Loans,Masvingo,USD,Approved,Real Estate,702.0,platinum
+398,1494,46,Male,Civil Servant,511,3066,9,Investments,Kwekwe,USD,Rejected,Bonds,,bronze
+399,1496,41,Male,Salaried,1734,19074,9,Loans,Gweru,ZiG,Rejected,Real Estate,628.0,gold
+400,1497,59,Male,Business Owner,6666,19998,26,Investments,Harare,USD,Approved,Real Estate,671.0,gold
+401,1499,53,Male,Business Owner,7194,79134,17,Loans,Bulawayo,USD,Rejected,Bonds,432.0,gold
+402,1500,50,Male,Civil Servant,1036,11396,16,Investments,Gweru,USD,Pending,Real Estate,420.0,gold
+403,1502,43,Female,Business Owner,5664,22656,35,Loans,Kwekwe,USD,Approved,Bonds,428.0,platinum
+404,1505,56,Male,Retired,260,2340,5,Loans,Mutare,USD,Pending,Real Estate,823.0,bronze
+405,1506,54,Male,Business Owner,6541,19623,55,Investments,Mutare,USD,Approved,Bonds,632.0,platinum
+406,1507,51,Female,Salaried,3610,18050,5,Loans,Bulawayo,USD,Approved,Real Estate,596.0,gold
+407,1508,30,Male,Business Owner,5401,32406,20,Investments,Masvingo,USD,Pending,Mutual Funds,429.0,gold
+408,1509,39,Male,Civil Servant,1484,11872,15,Savings,Masvingo,USD,Rejected,Mutual Funds,592.0,gold
+409,1510,52,Female,Salaried,2151,12906,18,Savings,Mutare,USD,Approved,Bonds,472.0,gold
+410,1512,25,Male,Student,143,858,2,Investments,Kwekwe,USD,Rejected,Real Estate,398.0,bronze
+411,1513,65,Female,Business Owner,3026,3026,29,Savings,Harare,USD,Pending,Real Estate,705.0,silver
+412,1514,24,Female,Retired,849,3396,13,Loans,Harare,ZWL,Approved,Bonds,655.0,bronze
+413,1515,36,Male,Business Owner,2861,17166,4,Savings,Gweru,USD,Rejected,Bonds,438.0,gold
+414,1516,44,Female,Retired,749,5243,42,Savings,Gweru,ZiG,Rejected,Mutual Funds,802.0,silver
+415,1517,36,Female,Civil Servant,938,10318,45,Loans,Masvingo,USD,Pending,Stocks,473.0,silver
+416,1518,22,Male,Retired,474,5214,10,Loans,Masvingo,ZiG,Pending,Bonds,328.0,bronze
+417,1519,69,Male,Business Owner,6783,67830,31,Savings,Bulawayo,USD,Pending,Stocks,795.0,platinum
+418,1520,48,Male,Business Owner,9110,27330,41,Investments,Bulawayo,ZiG,Rejected,Bonds,650.0,platinum
+419,1523,40,Female,Business Owner,3493,3493,48,Investments,Harare,USD,Rejected,Mutual Funds,363.0,silver
+420,1524,44,Male,Salaried,1469,2938,46,Savings,Harare,ZiG,Approved,Mutual Funds,514.0,silver
+421,1525,32,Female,Business Owner,2514,2514,9,Savings,Gweru,USD,Pending,Stocks,465.0,bronze
+422,1526,55,Female,Salaried,2511,27621,30,Savings,Bulawayo,USD,Pending,Bonds,842.0,gold
+423,1527,53,Male,Retired,802,7218,53,Loans,Kwekwe,USD,Rejected,Real Estate,531.0,silver
+424,1528,53,Male,Salaried,4421,39789,11,Investments,Kwekwe,ZiG,Pending,Mutual Funds,840.0,gold
+425,1529,63,Female,Business Owner,2190,15330,35,Investments,Kwekwe,USD,Pending,Real Estate,494.0,platinum
+426,1530,57,Male,Salaried,1093,10930,37,Investments,Gweru,USD,Rejected,Real Estate,805.0,silver
+427,1531,32,Female,Business Owner,1989,5967,42,Loans,Mutare,USD,Approved,Bonds,633.0,silver
+428,1532,23,Male,Student,258,1290,13,Savings,Mutare,ZiG,Rejected,Stocks,603.0,bronze
+429,1533,21,Male,Business Owner,8740,34960,36,Savings,Mutare,ZWL,Approved,Bonds,736.0,platinum
+430,1534,53,Male,Civil Servant,808,5656,56,Investments,Masvingo,ZWL,Rejected,Mutual Funds,622.0,silver
+431,1535,60,Male,Student,439,3951,13,Savings,Bulawayo,USD,Rejected,Real Estate,801.0,bronze
+432,1536,30,Female,Retired,818,1636,12,Loans,Bulawayo,ZiG,Pending,Bonds,692.0,bronze
+433,1537,63,Male,Civil Servant,594,4752,37,Investments,Masvingo,USD,Rejected,Bonds,448.0,silver
+434,1538,64,Female,Retired,568,5112,10,Savings,Harare,USD,Rejected,Bonds,704.0,bronze
+435,1539,49,Male,Student,493,4930,56,Investments,Kwekwe,USD,Approved,Mutual Funds,582.0,silver
+436,1540,33,Female,Civil Servant,1095,10950,9,Savings,Mutare,USD,Pending,Stocks,661.0,gold
+437,1541,32,Male,Salaried,3512,31608,52,Savings,Kwekwe,ZWL,Approved,Bonds,678.0,platinum
+438,1542,51,Female,Civil Servant,848,8480,7,Investments,Mutare,USD,Approved,Mutual Funds,497.0,bronze
+439,1543,66,Female,Salaried,2473,17311,2,Savings,Kwekwe,USD,Pending,Real Estate,655.0,gold
+440,1545,55,Male,Salaried,3858,34722,56,Investments,Kwekwe,ZiG,Pending,Mutual Funds,,platinum
+441,1547,37,Female,Business Owner,5141,20564,39,Investments,Gweru,USD,Pending,Bonds,678.0,platinum
+442,1548,46,Male,Business Owner,5958,11916,40,Savings,Kwekwe,ZiG,Pending,Bonds,805.0,platinum
+443,1549,28,Female,Salaried,1341,13410,39,Investments,Gweru,USD,Pending,Mutual Funds,375.0,platinum
+444,1551,46,Female,Salaried,1279,14069,23,Investments,Masvingo,USD,Approved,Bonds,547.0,gold
+445,1552,30,Female,Salaried,3067,33737,29,Investments,Kwekwe,USD,Rejected,Real Estate,601.0,gold
+446,1553,46,Female,Retired,825,4125,14,Savings,Bulawayo,ZiG,Approved,Stocks,514.0,bronze
+447,1554,54,Male,Business Owner,7238,36190,26,Loans,Gweru,USD,Rejected,Stocks,457.0,gold
+448,1555,61,Male,Business Owner,7168,43008,51,Loans,Kwekwe,USD,Approved,Bonds,368.0,platinum
+449,1557,24,Female,Salaried,662,4634,55,Loans,Harare,USD,Approved,Bonds,384.0,silver
+450,1559,31,Male,Retired,711,1422,25,Savings,Mutare,USD,Approved,Real Estate,368.0,bronze
+451,1561,56,Female,Salaried,4369,43690,50,Investments,Harare,USD,Rejected,Bonds,722.0,platinum
+452,1562,45,Female,Salaried,4951,9902,20,Savings,Gweru,USD,Pending,Real Estate,473.0,gold
+453,1563,41,Male,Student,184,1104,44,Investments,Mutare,USD,Pending,Mutual Funds,414.0,silver
+454,1564,56,Male,Civil Servant,1174,12914,55,Savings,Mutare,USD,Rejected,Stocks,519.0,platinum
+455,1565,30,Male,Salaried,2735,30085,17,Loans,Masvingo,USD,Pending,Bonds,330.0,gold
+456,1566,57,Male,Retired,406,406,45,Investments,Bulawayo,ZWL,Pending,Bonds,822.0,silver
+457,1567,29,Male,Salaried,1422,4266,2,Savings,Gweru,USD,Approved,Bonds,642.0,bronze
+458,1568,44,Male,Salaried,3674,7348,25,Investments,Kwekwe,USD,Pending,Real Estate,676.0,bronze
+459,1569,55,Male,Salaried,3581,10743,13,Savings,Bulawayo,USD,Pending,Mutual Funds,429.0,gold
+460,1571,55,Male,Salaried,2237,24607,39,Loans,Mutare,USD,Pending,Mutual Funds,301.0,platinum
+461,1572,68,Female,Civil Servant,1361,13610,28,Investments,Masvingo,ZiG,Rejected,Real Estate,400.0,gold
+462,1573,56,Male,Salaried,1524,9144,42,Investments,Bulawayo,USD,Approved,Bonds,832.0,silver
+463,1574,38,Female,Business Owner,2144,19296,55,Savings,Mutare,ZWL,Pending,Stocks,357.0,platinum
+464,1575,69,Female,Salaried,2632,28952,6,Loans,Gweru,ZiG,Pending,Bonds,688.0,gold
+465,1577,52,Male,Salaried,2668,10672,58,Savings,Kwekwe,USD,Pending,Stocks,319.0,silver
+466,1578,44,Male,Business Owner,1741,12187,35,Loans,Bulawayo,USD,Rejected,Bonds,554.0,platinum
+467,1579,43,Female,Retired,654,3924,18,Investments,Mutare,USD,Approved,Stocks,616.0,bronze
+468,1580,52,Female,Business Owner,4168,8336,11,Savings,Bulawayo,USD,Approved,Mutual Funds,337.0,bronze
+469,1581,57,Male,Student,352,3520,54,Savings,Kwekwe,USD,Pending,Real Estate,836.0,silver
+470,1582,32,Female,Business Owner,2302,25322,20,Investments,Masvingo,USD,Pending,Bonds,685.0,gold
+471,1584,33,Male,Business Owner,1695,18645,19,Investments,Mutare,USD,Rejected,Mutual Funds,753.0,gold
+472,1585,43,Female,Student,189,1512,22,Savings,Gweru,USD,Pending,Bonds,622.0,bronze
+473,1586,45,Male,Salaried,4115,28805,59,Loans,Mutare,USD,Pending,Mutual Funds,812.0,platinum
+474,1588,61,Male,Salaried,2959,23672,47,Loans,Harare,USD,Pending,Bonds,670.0,platinum
+475,1590,37,Male,Business Owner,5106,5106,24,Investments,Bulawayo,USD,Pending,Stocks,631.0,bronze
+476,1592,40,Female,Salaried,876,7008,4,Investments,Bulawayo,USD,Pending,Stocks,504.0,bronze
+477,1593,68,Male,Civil Servant,360,1440,15,Investments,Harare,USD,Approved,Bonds,686.0,bronze
+478,1594,45,Female,Civil Servant,351,1755,25,Investments,Masvingo,ZiG,Rejected,Stocks,767.0,bronze
+479,1595,42,Female,Civil Servant,452,3616,44,Loans,Bulawayo,USD,Approved,Bonds,714.0,silver
+480,1596,33,Female,Business Owner,4091,20455,55,Investments,Mutare,USD,Approved,Bonds,368.0,platinum
+481,1597,39,Female,Business Owner,7621,76210,35,Savings,Kwekwe,ZWL,Approved,Real Estate,771.0,platinum
+482,1598,69,Female,Civil Servant,613,2452,55,Investments,Mutare,USD,Pending,Bonds,403.0,silver
+483,1599,56,Female,Student,344,2064,14,Investments,Kwekwe,ZWL,Pending,Stocks,460.0,bronze
+484,1600,32,Female,Salaried,3495,17475,49,Investments,Masvingo,ZWL,Pending,Real Estate,499.0,platinum
+485,1601,61,Female,Salaried,1836,12852,19,Savings,Bulawayo,USD,Rejected,Real Estate,515.0,gold
+486,1602,39,Male,Salaried,736,7360,38,Loans,Kwekwe,USD,Rejected,Bonds,511.0,silver
+487,1605,27,Male,Salaried,3194,15970,30,Savings,Bulawayo,USD,Approved,Real Estate,797.0,gold
+488,1606,48,Male,Retired,238,714,19,Loans,Mutare,ZWL,Approved,Bonds,631.0,bronze
+489,1608,51,Male,Business Owner,3972,15888,25,Loans,Kwekwe,USD,Rejected,Bonds,471.0,gold
+490,1609,39,Female,Civil Servant,929,2787,16,Investments,Mutare,USD,Pending,Bonds,797.0,bronze
+491,1610,67,Female,Student,310,3100,47,Savings,Masvingo,USD,Rejected,Real Estate,770.0,silver
+492,1611,36,Male,Business Owner,1586,7930,54,Loans,Gweru,USD,Approved,Real Estate,683.0,silver
+493,1612,25,Male,Salaried,3112,15560,40,Savings,Mutare,ZiG,Approved,Mutual Funds,806.0,platinum
+494,1616,41,Male,Salaried,3910,15640,28,Loans,Gweru,ZiG,Rejected,Stocks,507.0,gold
+495,1617,56,Male,Salaried,2300,20700,16,Loans,Mutare,USD,Rejected,Bonds,468.0,gold
+496,1618,43,Female,Salaried,4270,25620,52,Savings,Gweru,ZiG,Rejected,Real Estate,629.0,platinum
+497,1620,59,Female,Salaried,4229,8458,42,Loans,Masvingo,ZiG,Approved,Mutual Funds,604.0,silver
+498,1622,62,Male,Business Owner,3147,6294,45,Savings,Bulawayo,USD,Pending,Bonds,,silver
+499,1623,59,Female,Retired,244,1220,13,Investments,Bulawayo,ZiG,Rejected,Bonds,389.0,bronze
+500,1624,34,Female,Retired,600,3600,7,Loans,Gweru,USD,Pending,Real Estate,752.0,bronze
+501,1625,51,Male,Salaried,3918,15672,27,Loans,Bulawayo,USD,Approved,Stocks,359.0,gold
+502,1626,25,Female,Salaried,4287,12861,10,Loans,Harare,USD,Pending,Real Estate,610.0,gold
+503,1628,43,Female,Business Owner,6045,12090,36,Investments,Bulawayo,ZWL,Rejected,Mutual Funds,526.0,platinum
+504,1629,49,Female,Salaried,1084,11924,25,Savings,Harare,USD,Rejected,Real Estate,773.0,gold
+505,1630,63,Male,Business Owner,6257,37542,6,Loans,Masvingo,USD,Approved,Stocks,840.0,gold
+506,1631,31,Female,Salaried,4984,19936,24,Investments,Bulawayo,ZiG,Pending,Real Estate,378.0,gold
+507,1632,38,Female,Retired,613,3678,18,Investments,Harare,USD,Rejected,Bonds,732.0,bronze
+508,1639,58,Female,Civil Servant,1231,3693,46,Loans,Bulawayo,USD,Pending,Mutual Funds,457.0,silver
+509,1640,27,Female,Business Owner,8678,52068,24,Investments,Mutare,USD,Approved,Stocks,658.0,gold
+510,1642,33,Male,Student,216,864,26,Savings,Gweru,USD,Rejected,Stocks,765.0,bronze
+511,1644,62,Male,Salaried,4230,16920,34,Investments,Masvingo,ZiG,Rejected,Real Estate,787.0,platinum
+512,1646,47,Female,Retired,326,1304,3,Investments,Kwekwe,USD,Rejected,Bonds,372.0,bronze
+513,1647,22,Female,Civil Servant,446,892,11,Loans,Harare,USD,Rejected,Mutual Funds,316.0,bronze
+514,1648,25,Male,Salaried,4582,9164,38,Savings,Bulawayo,USD,Pending,Real Estate,830.0,silver
+515,1649,49,Female,Civil Servant,711,3555,14,Loans,Gweru,USD,Rejected,Real Estate,625.0,bronze
+516,1650,57,Male,Salaried,3010,12040,51,Investments,Kwekwe,USD,Approved,Bonds,845.0,platinum
+517,1652,39,Female,Student,224,2464,48,Savings,Gweru,USD,Approved,Mutual Funds,643.0,silver
+518,1653,28,Female,Civil Servant,1257,6285,21,Savings,Masvingo,USD,Approved,Real Estate,822.0,bronze
+519,1654,68,Male,Retired,680,4080,54,Investments,Harare,USD,Rejected,Mutual Funds,699.0,silver
+520,1655,65,Male,Business Owner,1518,15180,56,Savings,Bulawayo,ZiG,Rejected,Real Estate,517.0,platinum
+521,1657,42,Male,Retired,529,1058,30,Investments,Bulawayo,ZiG,Rejected,Real Estate,,silver
+522,1658,37,Female,Business Owner,7818,78180,59,Savings,Mutare,USD,Rejected,Real Estate,682.0,platinum
+523,1659,27,Male,Retired,648,5832,8,Savings,Kwekwe,ZiG,Rejected,Stocks,306.0,bronze
+524,1661,65,Male,Civil Servant,1245,8715,20,Loans,Gweru,USD,Approved,Bonds,315.0,gold
+525,1662,24,Male,Retired,553,2212,48,Savings,Gweru,USD,Rejected,Bonds,723.0,silver
+526,1664,26,Male,Business Owner,8401,84010,22,Savings,Masvingo,USD,Pending,Bonds,320.0,gold
+527,1666,39,Male,Salaried,3577,32193,7,Savings,Kwekwe,USD,Approved,Bonds,587.0,gold
+528,1667,64,Female,Student,142,710,9,Investments,Bulawayo,ZWL,Rejected,Stocks,433.0,bronze
+529,1668,59,Male,Salaried,4615,13845,45,Loans,Harare,ZiG,Pending,Bonds,582.0,platinum
+530,1669,47,Female,Salaried,838,4190,1,Investments,Bulawayo,USD,Approved,Real Estate,703.0,bronze
+531,1671,46,Female,Salaried,3207,35277,8,Investments,Harare,USD,Pending,Mutual Funds,736.0,gold
+532,1672,39,Female,Civil Servant,544,2176,56,Savings,Bulawayo,USD,Pending,Mutual Funds,558.0,silver
+533,1674,23,Female,Retired,516,1032,4,Savings,Mutare,USD,Pending,Stocks,400.0,bronze
+534,1675,65,Male,Salaried,3572,7144,35,Investments,Masvingo,USD,Approved,Bonds,497.0,silver
+535,1676,33,Male,Salaried,4990,39920,59,Loans,Kwekwe,USD,Rejected,Stocks,525.0,platinum
+536,1677,48,Male,Business Owner,4187,4187,3,Loans,Mutare,USD,Rejected,Mutual Funds,762.0,bronze
+537,1680,28,Male,Business Owner,6888,75768,40,Loans,Mutare,USD,Approved,Stocks,420.0,platinum
+538,1681,61,Female,Civil Servant,604,4832,7,Investments,Masvingo,USD,Approved,Stocks,805.0,bronze
+539,1682,59,Female,Civil Servant,1330,1330,27,Investments,Gweru,USD,Approved,Bonds,481.0,bronze
+540,1683,21,Female,Salaried,1416,15576,1,Loans,Gweru,USD,Pending,Real Estate,842.0,gold
+541,1684,23,Female,Retired,302,2114,27,Investments,Harare,USD,Pending,Real Estate,614.0,bronze
+542,1685,33,Female,Student,358,1790,16,Loans,Gweru,USD,Pending,Bonds,572.0,bronze
+543,1686,48,Male,Retired,392,1568,38,Savings,Mutare,USD,Rejected,Real Estate,531.0,silver
+544,1687,69,Male,Civil Servant,828,5796,7,Savings,Harare,ZWL,Pending,Mutual Funds,719.0,bronze
+545,1688,45,Male,Salaried,850,8500,44,Savings,Kwekwe,USD,Rejected,Real Estate,741.0,silver
+546,1689,53,Male,Salaried,2388,4776,23,Loans,Masvingo,ZiG,Pending,Bonds,795.0,bronze
+547,1690,58,Female,Business Owner,8874,8874,41,Savings,Harare,ZiG,Rejected,Real Estate,323.0,silver
+548,1692,64,Female,Student,465,5115,11,Savings,Harare,ZiG,Pending,Stocks,,bronze
+549,1693,65,Male,Retired,993,993,42,Loans,Bulawayo,USD,Approved,Mutual Funds,324.0,silver
+550,1696,67,Male,Retired,831,5817,50,Investments,Gweru,USD,Approved,Bonds,,silver
+551,1697,41,Male,Business Owner,5404,10808,36,Savings,Bulawayo,ZiG,Rejected,Stocks,336.0,silver
+552,1698,36,Male,Salaried,1104,11040,37,Investments,Masvingo,USD,Approved,Stocks,436.0,silver
+553,1699,41,Male,Retired,797,6376,41,Investments,Kwekwe,ZiG,Approved,Mutual Funds,,silver
+554,1700,31,Male,Salaried,3072,12288,59,Loans,Mutare,USD,Rejected,Bonds,526.0,platinum
+555,1701,57,Male,Business Owner,8273,24819,17,Savings,Bulawayo,ZWL,Pending,Mutual Funds,619.0,gold
+556,1702,56,Male,Salaried,4416,44160,35,Loans,Harare,USD,Rejected,Real Estate,481.0,platinum
+557,1704,39,Female,Salaried,1317,10536,5,Loans,Mutare,USD,Pending,Mutual Funds,766.0,gold
+558,1706,38,Male,Salaried,1258,13838,32,Loans,Kwekwe,USD,Approved,Bonds,534.0,platinum
+559,1707,67,Female,Salaried,4608,50688,3,Savings,Bulawayo,ZWL,Rejected,Real Estate,732.0,gold
+560,1708,61,Male,Salaried,4834,14502,52,Savings,Kwekwe,ZWL,Pending,Bonds,795.0,platinum
+561,1709,69,Male,Civil Servant,1241,3723,47,Loans,Kwekwe,ZiG,Rejected,Real Estate,399.0,silver
+562,1710,34,Female,Business Owner,6137,61370,35,Loans,Gweru,USD,Rejected,Real Estate,702.0,platinum
+563,1712,51,Female,Business Owner,8301,8301,14,Savings,Gweru,ZiG,Approved,Bonds,826.0,bronze
+564,1713,21,Female,Salaried,3082,18492,48,Investments,Harare,USD,Rejected,Bonds,714.0,platinum
+565,1714,23,Male,Business Owner,4107,8214,31,Investments,Kwekwe,USD,Pending,Mutual Funds,762.0,silver
+566,1715,36,Male,Salaried,793,793,31,Loans,Kwekwe,USD,Pending,Bonds,840.0,silver
+567,1716,43,Male,Salaried,4407,8814,17,Savings,Kwekwe,USD,Rejected,Mutual Funds,663.0,gold
+568,1717,31,Female,Salaried,4319,25914,24,Savings,Masvingo,USD,Approved,Stocks,429.0,gold
+569,1718,32,Male,Business Owner,4081,16324,52,Savings,Gweru,ZWL,Rejected,Stocks,383.0,platinum
+570,1719,30,Male,Civil Servant,817,4902,23,Savings,Mutare,USD,Approved,Stocks,570.0,bronze
+571,1720,52,Male,Business Owner,4263,38367,18,Loans,Bulawayo,USD,Approved,Bonds,543.0,gold
+572,1721,36,Female,Civil Servant,1050,10500,50,Loans,Mutare,ZWL,Approved,Bonds,687.0,silver
+573,1722,28,Male,Student,234,2340,54,Loans,Harare,USD,Approved,Mutual Funds,,silver
+574,1723,58,Male,Salaried,2939,23512,14,Loans,Harare,ZiG,Rejected,Real Estate,465.0,gold
+575,1724,32,Female,Salaried,4006,4006,50,Loans,Kwekwe,USD,Pending,Mutual Funds,358.0,silver
+576,1725,44,Female,Salaried,1331,10648,15,Loans,Mutare,USD,Pending,Stocks,803.0,gold
+577,1726,48,Male,Business Owner,6280,56520,15,Investments,Kwekwe,USD,Pending,Mutual Funds,422.0,gold
+578,1727,28,Male,Salaried,4777,28662,6,Savings,Masvingo,USD,Pending,Real Estate,712.0,gold
+579,1728,48,Male,Civil Servant,1133,11330,27,Savings,Harare,USD,Pending,Bonds,438.0,gold
+580,1729,56,Female,Salaried,3204,16020,15,Savings,Harare,ZiG,Pending,Mutual Funds,528.0,gold
+581,1730,46,Male,Business Owner,9681,58086,50,Savings,Mutare,USD,Rejected,Stocks,573.0,platinum
+582,1731,28,Male,Retired,534,3204,36,Loans,Harare,ZiG,Approved,Stocks,738.0,silver
+583,1732,48,Female,Salaried,1131,10179,55,Savings,Masvingo,USD,Pending,Bonds,417.0,silver
+584,1733,48,Female,Retired,420,1680,8,Loans,Masvingo,USD,Rejected,Mutual Funds,782.0,bronze
+585,1734,57,Male,Salaried,1234,2468,15,Savings,Masvingo,USD,Pending,Real Estate,694.0,bronze
+586,1735,61,Female,Salaried,2369,26059,3,Investments,Bulawayo,USD,Pending,Bonds,759.0,gold
+587,1736,56,Female,Business Owner,1502,16522,47,Savings,Masvingo,ZiG,Approved,Mutual Funds,377.0,platinum
+588,1738,37,Male,Student,369,738,41,Loans,Bulawayo,ZiG,Approved,Stocks,374.0,silver
+589,1739,29,Female,Business Owner,7126,71260,34,Savings,Kwekwe,USD,Pending,Real Estate,594.0,platinum
+590,1740,53,Male,Student,109,981,24,Loans,Gweru,USD,Pending,Real Estate,320.0,bronze
+591,1741,40,Male,Salaried,3490,6980,40,Savings,Harare,USD,Pending,Real Estate,470.0,silver
+592,1742,33,Male,Business Owner,7739,61912,32,Savings,Masvingo,ZiG,Approved,Stocks,314.0,platinum
+593,1743,48,Female,Business Owner,9526,85734,32,Savings,Harare,USD,Rejected,Mutual Funds,510.0,platinum
+594,1744,68,Male,Business Owner,4806,48060,30,Savings,Mutare,USD,Pending,Bonds,385.0,platinum
+595,1745,49,Male,Student,435,3915,52,Savings,Harare,USD,Pending,Mutual Funds,448.0,silver
+596,1746,33,Male,Salaried,1685,16850,49,Loans,Kwekwe,USD,Pending,Bonds,671.0,platinum
+597,1747,66,Male,Salaried,1879,16911,13,Savings,Bulawayo,USD,Rejected,Real Estate,779.0,gold
+598,1748,55,Female,Salaried,1270,2540,1,Savings,Harare,USD,Pending,Mutual Funds,450.0,bronze
+599,1749,26,Female,Business Owner,8791,35164,34,Savings,Harare,ZiG,Rejected,Real Estate,440.0,platinum
+600,1751,25,Male,Business Owner,7960,15920,44,Savings,Gweru,USD,Rejected,Real Estate,559.0,platinum
+601,1752,67,Female,Retired,703,703,14,Savings,Gweru,USD,Pending,Real Estate,820.0,bronze
+602,1753,45,Male,Salaried,2555,7665,57,Savings,Mutare,USD,Approved,Bonds,670.0,silver
+603,1755,30,Female,Salaried,2492,19936,34,Loans,Harare,ZWL,Approved,Real Estate,400.0,platinum
+604,1756,50,Female,Salaried,4039,24234,18,Investments,Harare,ZWL,Approved,Real Estate,542.0,gold
+605,1759,53,Male,Business Owner,4354,39186,29,Investments,Gweru,ZiG,Rejected,Mutual Funds,525.0,gold
+606,1760,21,Male,Civil Servant,784,1568,55,Loans,Kwekwe,USD,Approved,Bonds,817.0,silver
+607,1763,67,Male,Student,93,651,38,Savings,Masvingo,USD,Pending,Stocks,695.0,silver
+608,1765,31,Female,Student,120,600,8,Investments,Kwekwe,USD,Rejected,Bonds,536.0,bronze
+609,1766,41,Male,Salaried,3763,37630,27,Investments,Harare,USD,Approved,Real Estate,698.0,gold
+610,1767,46,Male,Salaried,1888,9440,54,Loans,Kwekwe,ZiG,Approved,Real Estate,706.0,silver
+611,1768,45,Female,Business Owner,4442,8884,2,Savings,Mutare,USD,Approved,Real Estate,779.0,bronze
+612,1769,42,Male,Business Owner,9911,79288,17,Investments,Masvingo,USD,Rejected,Real Estate,521.0,gold
+613,1770,47,Male,Retired,641,1282,37,Investments,Kwekwe,USD,Approved,Stocks,455.0,silver
+614,1772,33,Male,Retired,599,3594,25,Savings,Gweru,USD,Rejected,Real Estate,457.0,bronze
+615,1773,53,Female,Civil Servant,1026,8208,56,Savings,Masvingo,USD,Approved,Mutual Funds,715.0,silver
+616,1774,54,Female,Business Owner,2490,14940,30,Savings,Mutare,USD,Rejected,Real Estate,625.0,gold
+617,1776,55,Male,Civil Servant,1157,4628,20,Investments,Gweru,ZWL,Approved,Real Estate,643.0,bronze
+618,1777,21,Male,Business Owner,1989,11934,21,Loans,Mutare,USD,Approved,Stocks,561.0,gold
+619,1778,41,Female,Retired,684,2736,53,Savings,Mutare,USD,Rejected,Bonds,582.0,silver
+620,1779,68,Female,Salaried,2093,16744,22,Loans,Kwekwe,USD,Rejected,Bonds,528.0,gold
+621,1781,48,Male,Salaried,3491,3491,37,Savings,Gweru,USD,Pending,Bonds,589.0,silver
+622,1782,37,Female,Student,219,876,16,Savings,Harare,ZiG,Rejected,Bonds,346.0,bronze
+623,1783,25,Female,Business Owner,5016,20064,50,Investments,Bulawayo,ZiG,Rejected,Mutual Funds,513.0,platinum
+624,1786,58,Female,Civil Servant,353,1059,43,Savings,Mutare,USD,Approved,Bonds,573.0,silver
+625,1787,23,Female,Civil Servant,827,5789,17,Savings,Gweru,USD,Pending,Bonds,612.0,bronze
+626,1788,43,Female,Salaried,4191,46101,16,Loans,Bulawayo,ZWL,Approved,Bonds,662.0,gold
+627,1789,57,Male,Salaried,1215,13365,58,Investments,Kwekwe,USD,Pending,Stocks,679.0,platinum
+628,1790,57,Male,Civil Servant,1382,6910,55,Savings,Bulawayo,USD,Rejected,Real Estate,769.0,silver
+629,1791,30,Female,Salaried,1554,6216,2,Savings,Harare,USD,Approved,Stocks,415.0,bronze
+630,1793,39,Female,Business Owner,3129,25032,21,Investments,Bulawayo,ZiG,Approved,Mutual Funds,678.0,gold
+631,1794,37,Female,Retired,933,2799,39,Loans,Masvingo,USD,Pending,Real Estate,505.0,silver
+632,1795,41,Female,Civil Servant,1015,7105,34,Loans,Masvingo,USD,Rejected,Mutual Funds,765.0,silver
+633,1798,66,Male,Salaried,3240,22680,17,Savings,Mutare,USD,Approved,Mutual Funds,536.0,gold
+634,1799,21,Female,Salaried,4401,30807,39,Loans,Harare,USD,Approved,Mutual Funds,608.0,platinum
+635,1800,65,Female,Salaried,3161,3161,25,Savings,Bulawayo,USD,Rejected,Mutual Funds,755.0,bronze
+636,1802,24,Male,Business Owner,8039,48234,5,Investments,Masvingo,USD,Rejected,Bonds,399.0,gold
+637,1803,21,Female,Civil Servant,670,1340,20,Investments,Bulawayo,USD,Approved,Mutual Funds,560.0,bronze
+638,1804,69,Female,Salaried,1457,7285,16,Loans,Mutare,ZiG,Rejected,Real Estate,604.0,bronze
+639,1806,52,Female,Civil Servant,957,3828,41,Investments,Gweru,USD,Pending,Stocks,585.0,silver
+640,1807,54,Male,Salaried,983,6881,37,Loans,Harare,USD,Pending,Stocks,627.0,silver
+641,1808,48,Male,Business Owner,5834,46672,40,Loans,Mutare,USD,Pending,Real Estate,,platinum
+642,1809,51,Female,Student,244,2684,9,Loans,Bulawayo,ZiG,Approved,Bonds,362.0,bronze
+643,1810,28,Male,Student,215,2365,5,Loans,Mutare,USD,Rejected,Mutual Funds,581.0,bronze
+644,1812,46,Female,Business Owner,7704,38520,57,Savings,Harare,USD,Approved,Mutual Funds,592.0,platinum
+645,1814,23,Male,Salaried,4851,4851,9,Loans,Gweru,USD,Rejected,Stocks,391.0,bronze
+646,1815,32,Male,Salaried,4588,13764,43,Investments,Harare,USD,Pending,Mutual Funds,489.0,platinum
+647,1816,21,Female,Salaried,1522,9132,36,Savings,Masvingo,USD,Approved,Real Estate,775.0,silver
+648,1817,64,Male,Salaried,3515,24605,22,Investments,Masvingo,ZiG,Rejected,Bonds,,gold
+649,1818,25,Male,Salaried,3550,28400,22,Investments,Masvingo,USD,Pending,Real Estate,761.0,gold
+650,1819,50,Male,Salaried,3646,40106,22,Investments,Masvingo,USD,Rejected,Bonds,,gold
+651,1820,50,Female,Civil Servant,1274,5096,34,Loans,Bulawayo,USD,Rejected,Mutual Funds,785.0,silver
+652,1821,37,Male,Student,256,768,55,Loans,Gweru,USD,Approved,Mutual Funds,789.0,silver
+653,1822,68,Female,Salaried,3035,15175,29,Savings,Kwekwe,ZiG,Approved,Bonds,663.0,gold
+654,1823,67,Female,Civil Servant,1186,10674,38,Savings,Masvingo,ZiG,Approved,Stocks,411.0,silver
+655,1825,35,Male,Salaried,4540,40860,46,Savings,Mutare,USD,Approved,Real Estate,306.0,platinum
+656,1826,57,Female,Salaried,803,4818,33,Savings,Gweru,USD,Rejected,Real Estate,496.0,silver
+657,1827,41,Female,Civil Servant,460,920,18,Loans,Harare,USD,Rejected,Real Estate,666.0,bronze
+658,1828,34,Female,Salaried,1368,6840,7,Investments,Gweru,USD,Approved,Mutual Funds,549.0,bronze
+659,1829,22,Female,Retired,876,9636,1,Loans,Gweru,USD,Pending,Real Estate,539.0,bronze
+660,1832,58,Male,Business Owner,6000,42000,24,Savings,Kwekwe,ZWL,Rejected,Bonds,754.0,gold
+661,1833,54,Male,Business Owner,7210,7210,4,Savings,Masvingo,ZiG,Rejected,Mutual Funds,665.0,bronze
+662,1835,54,Male,Salaried,3791,26537,18,Loans,Bulawayo,USD,Approved,Stocks,702.0,gold
+663,1836,38,Male,Business Owner,3337,36707,27,Loans,Kwekwe,ZWL,Rejected,Mutual Funds,357.0,gold
+664,1837,50,Female,Salaried,1289,9023,43,Savings,Kwekwe,USD,Approved,Mutual Funds,820.0,silver
+665,1839,47,Male,Business Owner,3603,28824,32,Savings,Mutare,ZiG,Pending,Stocks,414.0,platinum
+666,1840,54,Female,Student,415,4565,33,Savings,Gweru,USD,Pending,Bonds,,silver
+667,1842,53,Female,Civil Servant,754,7540,42,Savings,Kwekwe,USD,Approved,Stocks,472.0,silver
+668,1843,44,Male,Civil Servant,403,1209,41,Loans,Harare,USD,Approved,Mutual Funds,533.0,silver
+669,1844,35,Female,Student,126,504,55,Savings,Bulawayo,USD,Approved,Stocks,702.0,silver
+670,1845,50,Female,Business Owner,7533,22599,36,Savings,Mutare,USD,Rejected,Mutual Funds,338.0,platinum
+671,1848,25,Male,Civil Servant,1192,5960,34,Investments,Gweru,USD,Pending,Real Estate,635.0,silver
+672,1849,49,Male,Civil Servant,987,987,23,Savings,Mutare,USD,Approved,Real Estate,838.0,bronze
+673,1850,24,Male,Retired,226,226,50,Loans,Bulawayo,USD,Approved,Real Estate,373.0,silver
+674,1852,37,Male,Civil Servant,598,2392,24,Loans,Harare,USD,Approved,Bonds,623.0,bronze
+675,1854,37,Female,Civil Servant,1098,8784,49,Loans,Kwekwe,USD,Rejected,Stocks,583.0,silver
+676,1857,25,Male,Student,110,330,18,Savings,Mutare,USD,Approved,Mutual Funds,638.0,bronze
+677,1858,54,Female,Business Owner,2974,8922,54,Loans,Harare,USD,Approved,Mutual Funds,321.0,silver
+678,1859,26,Male,Business Owner,5960,29800,13,Loans,Gweru,USD,Rejected,Mutual Funds,404.0,gold
+679,1861,33,Female,Salaried,4326,17304,37,Investments,Kwekwe,USD,Rejected,Bonds,758.0,platinum
+680,1862,63,Male,Civil Servant,552,2208,43,Savings,Masvingo,ZiG,Approved,Stocks,731.0,silver
+681,1863,63,Male,Business Owner,4328,38952,39,Loans,Masvingo,USD,Pending,Stocks,520.0,platinum
+682,1864,68,Female,Business Owner,4350,30450,42,Savings,Harare,ZiG,Approved,Bonds,678.0,platinum
+683,1865,31,Female,Student,236,944,17,Loans,Mutare,USD,Pending,Bonds,521.0,bronze
+684,1866,67,Male,Retired,698,2094,15,Loans,Bulawayo,USD,Pending,Stocks,557.0,bronze
+685,1867,43,Male,Retired,707,4242,18,Savings,Mutare,USD,Rejected,Real Estate,666.0,bronze
+686,1868,36,Female,Retired,503,1509,23,Investments,Mutare,USD,Approved,Mutual Funds,648.0,bronze
+687,1869,51,Male,Civil Servant,800,4800,54,Savings,Mutare,USD,Rejected,Mutual Funds,524.0,silver
+688,1870,31,Female,Business Owner,4350,47850,51,Investments,Harare,USD,Approved,Stocks,535.0,platinum
+689,1871,36,Male,Salaried,765,8415,30,Investments,Harare,USD,Pending,Bonds,482.0,silver
+690,1872,28,Male,Civil Servant,761,6849,58,Investments,Bulawayo,USD,Pending,Real Estate,743.0,silver
+691,1873,24,Female,Salaried,1519,9114,34,Savings,Mutare,USD,Approved,Stocks,305.0,silver
+692,1874,60,Male,Civil Servant,413,1652,58,Loans,Harare,USD,Approved,Mutual Funds,535.0,silver
+693,1876,45,Male,Salaried,1591,9546,3,Investments,Kwekwe,USD,Approved,Bonds,403.0,bronze
+694,1878,52,Female,Civil Servant,814,2442,56,Loans,Mutare,USD,Approved,Stocks,454.0,silver
+695,1879,23,Male,Salaried,3796,30368,18,Savings,Gweru,ZiG,Rejected,Mutual Funds,556.0,gold
+696,1880,47,Female,Civil Servant,437,1748,42,Loans,Mutare,ZiG,Approved,Real Estate,534.0,silver
+697,1882,52,Female,Business Owner,7160,71600,40,Loans,Bulawayo,USD,Rejected,Real Estate,588.0,platinum
+698,1883,39,Male,Retired,582,5820,6,Savings,Kwekwe,USD,Rejected,Mutual Funds,809.0,bronze
+699,1885,25,Female,Business Owner,5021,50210,58,Loans,Harare,USD,Pending,Real Estate,436.0,platinum
+700,1886,38,Female,Retired,273,1911,1,Savings,Kwekwe,USD,Pending,Real Estate,675.0,bronze
+701,1888,62,Male,Salaried,2858,25722,46,Savings,Bulawayo,USD,Pending,Mutual Funds,718.0,platinum
+702,1889,42,Male,Business Owner,7539,30156,49,Savings,Harare,USD,Approved,Real Estate,498.0,platinum
+703,1890,41,Female,Civil Servant,950,7600,52,Investments,Kwekwe,USD,Rejected,Stocks,762.0,silver
+704,1892,21,Female,Business Owner,8338,58366,43,Investments,Mutare,ZiG,Pending,Bonds,609.0,platinum
+705,1893,25,Female,Retired,739,2217,29,Loans,Kwekwe,ZiG,Approved,Bonds,580.0,silver
+706,1894,61,Female,Salaried,3862,27034,21,Loans,Gweru,USD,Pending,Mutual Funds,622.0,gold
+707,1895,32,Male,Salaried,1938,21318,26,Loans,Bulawayo,USD,Pending,Stocks,451.0,gold
+708,1896,46,Male,Business Owner,6496,64960,14,Investments,Harare,USD,Approved,Real Estate,601.0,gold
+709,1897,66,Male,Salaried,4234,42340,9,Savings,Mutare,USD,Pending,Bonds,577.0,gold
+710,1898,54,Male,Business Owner,7280,80080,59,Loans,Masvingo,USD,Rejected,Mutual Funds,307.0,platinum
+711,1899,69,Female,Salaried,3427,37697,47,Loans,Mutare,USD,Pending,Stocks,534.0,platinum
+712,1900,34,Male,Retired,761,4566,12,Savings,Kwekwe,USD,Approved,Stocks,601.0,bronze
+713,1901,46,Male,Salaried,2817,5634,42,Loans,Gweru,USD,Approved,Mutual Funds,337.0,silver
+714,1902,65,Male,Business Owner,5039,55429,51,Loans,Mutare,USD,Rejected,Mutual Funds,435.0,platinum
+715,1903,47,Male,Business Owner,9345,28035,56,Loans,Masvingo,USD,Approved,Real Estate,720.0,platinum
+716,1904,29,Male,Business Owner,5883,35298,51,Savings,Harare,USD,Approved,Mutual Funds,518.0,platinum
+717,1905,46,Male,Salaried,4578,18312,6,Savings,Bulawayo,USD,Rejected,Real Estate,647.0,gold
+718,1906,67,Female,Civil Servant,488,2928,20,Investments,Gweru,USD,Pending,Real Estate,845.0,bronze
+719,1908,67,Female,Civil Servant,1478,14780,27,Investments,Kwekwe,USD,Pending,Stocks,572.0,gold
+720,1909,50,Male,Retired,766,766,38,Savings,Kwekwe,USD,Rejected,Stocks,460.0,silver
+721,1910,63,Male,Salaried,1698,5094,8,Savings,Kwekwe,USD,Pending,Stocks,607.0,bronze
+722,1912,37,Female,Salaried,1539,12312,54,Loans,Mutare,USD,Pending,Real Estate,308.0,platinum
+723,1913,46,Female,Civil Servant,870,9570,49,Loans,Gweru,ZiG,Rejected,Real Estate,743.0,silver
+724,1914,56,Male,Salaried,3504,14016,49,Investments,Kwekwe,USD,Pending,Mutual Funds,412.0,platinum
+725,1916,28,Female,Business Owner,2417,19336,47,Investments,Bulawayo,USD,Approved,Mutual Funds,704.0,platinum
+726,1918,55,Male,Salaried,2278,25058,19,Savings,Gweru,USD,Rejected,Mutual Funds,414.0,gold
+727,1919,35,Female,Salaried,1215,8505,22,Loans,Kwekwe,USD,Pending,Bonds,420.0,gold
+728,1920,67,Female,Business Owner,8586,34344,57,Savings,Harare,USD,Pending,Stocks,364.0,platinum
+729,1921,42,Male,Student,258,2322,55,Savings,Gweru,USD,Rejected,Stocks,575.0,silver
+730,1922,34,Female,Civil Servant,392,3920,35,Savings,Kwekwe,USD,Pending,Real Estate,538.0,silver
+731,1923,46,Female,Salaried,3077,18462,30,Savings,Mutare,USD,Rejected,Bonds,601.0,gold
+732,1924,48,Male,Business Owner,6249,68739,29,Savings,Bulawayo,ZiG,Approved,Stocks,691.0,platinum
+733,1925,43,Female,Retired,633,1899,22,Loans,Bulawayo,USD,Pending,Real Estate,821.0,bronze
+734,1926,34,Female,Retired,603,3015,11,Savings,Bulawayo,ZiG,Approved,Bonds,668.0,bronze
+735,1927,44,Male,Civil Servant,733,3665,20,Loans,Harare,ZiG,Pending,Stocks,532.0,bronze
+736,1928,22,Male,Salaried,1735,8675,29,Savings,Kwekwe,USD,Pending,Mutual Funds,494.0,silver
+737,1930,46,Female,Business Owner,8726,78534,41,Investments,Kwekwe,USD,Rejected,Bonds,476.0,platinum
+738,1931,34,Male,Business Owner,6662,59958,42,Savings,Kwekwe,ZiG,Approved,Real Estate,,platinum
+739,1932,27,Female,Civil Servant,506,3036,34,Investments,Harare,ZiG,Pending,Bonds,310.0,silver
+740,1933,23,Female,Civil Servant,1079,6474,1,Investments,Masvingo,USD,Rejected,Real Estate,745.0,bronze
+741,1934,67,Male,Salaried,1919,17271,31,Investments,Gweru,ZiG,Pending,Bonds,463.0,platinum
+742,1935,43,Female,Retired,317,1268,30,Savings,Gweru,USD,Rejected,Real Estate,352.0,silver
+743,1936,66,Male,Salaried,3290,19740,48,Savings,Kwekwe,USD,Pending,Stocks,517.0,platinum
+744,1937,63,Female,Salaried,3855,15420,18,Savings,Mutare,ZWL,Approved,Mutual Funds,659.0,gold
+745,1938,67,Female,Salaried,689,7579,55,Loans,Bulawayo,ZiG,Approved,Stocks,684.0,silver
+746,1939,65,Male,Student,143,143,58,Savings,Harare,USD,Pending,Mutual Funds,355.0,silver
+747,1940,38,Male,Business Owner,5608,39256,17,Savings,Mutare,ZiG,Rejected,Stocks,417.0,gold
+748,1941,58,Male,Student,371,3710,38,Loans,Mutare,ZWL,Pending,Stocks,552.0,silver
+749,1942,55,Male,Retired,941,10351,14,Loans,Kwekwe,ZiG,Rejected,Bonds,479.0,gold
+750,1944,45,Male,Salaried,2210,19890,25,Savings,Gweru,ZiG,Rejected,Real Estate,534.0,gold
+751,1945,57,Female,Retired,349,2443,15,Savings,Bulawayo,USD,Approved,Real Estate,379.0,bronze
+752,1946,48,Male,Salaried,4991,34937,46,Savings,Gweru,ZiG,Pending,Real Estate,321.0,platinum
+753,1947,30,Male,Student,463,926,56,Loans,Mutare,USD,Approved,Mutual Funds,776.0,silver
+754,1948,59,Female,Student,258,2838,22,Savings,Bulawayo,ZiG,Approved,Real Estate,739.0,bronze
+755,1949,37,Male,Salaried,2987,26883,3,Loans,Masvingo,USD,Pending,Real Estate,392.0,gold
+756,1950,59,Female,Salaried,1541,15410,56,Investments,Mutare,USD,Pending,Bonds,491.0,platinum
+757,1951,42,Female,Student,367,3303,55,Savings,Gweru,USD,Rejected,Stocks,402.0,silver
+758,1952,46,Female,Civil Servant,818,4908,19,Loans,Gweru,USD,Rejected,Real Estate,695.0,bronze
+759,1954,45,Male,Business Owner,8712,8712,44,Loans,Gweru,ZWL,Rejected,Real Estate,530.0,silver
+760,1955,37,Male,Salaried,1554,6216,34,Savings,Harare,ZWL,Rejected,Mutual Funds,539.0,silver
+761,1956,33,Female,Student,288,864,35,Investments,Mutare,USD,Pending,Mutual Funds,389.0,silver
+762,1957,40,Male,Retired,354,354,50,Investments,Bulawayo,ZWL,Rejected,Mutual Funds,531.0,silver
+763,1958,45,Male,Civil Servant,387,1161,1,Loans,Gweru,ZiG,Approved,Real Estate,756.0,bronze
+764,1959,24,Female,Business Owner,4827,19308,52,Loans,Kwekwe,USD,Rejected,Bonds,532.0,platinum
+765,1961,23,Male,Retired,411,3699,29,Loans,Gweru,ZWL,Pending,Real Estate,632.0,silver
+766,1962,61,Male,Business Owner,2757,8271,6,Savings,Harare,USD,Approved,Bonds,738.0,bronze
+767,1963,65,Female,Salaried,1064,6384,37,Savings,Kwekwe,ZiG,Rejected,Bonds,674.0,silver
+768,1964,38,Male,Business Owner,4794,47940,1,Loans,Bulawayo,ZiG,Pending,Real Estate,591.0,gold
+769,1965,67,Female,Civil Servant,930,10230,51,Loans,Mutare,ZiG,Rejected,Real Estate,644.0,silver
+770,1966,56,Female,Student,362,1810,1,Savings,Masvingo,USD,Pending,Bonds,727.0,bronze
+771,1967,67,Male,Salaried,1830,10980,27,Savings,Harare,USD,Pending,Bonds,429.0,gold
+772,1968,42,Female,Salaried,3254,13016,21,Savings,Kwekwe,USD,Rejected,Bonds,440.0,gold
+773,1969,54,Male,Civil Servant,1184,11840,53,Investments,Mutare,USD,Rejected,Real Estate,,platinum
+774,1970,67,Male,Student,271,1626,16,Savings,Masvingo,USD,Pending,Bonds,392.0,bronze
+775,1971,28,Female,Business Owner,7919,55433,44,Loans,Gweru,USD,Pending,Mutual Funds,583.0,platinum
+776,1972,60,Female,Salaried,4456,40104,59,Savings,Gweru,USD,Rejected,Real Estate,522.0,platinum
+777,1973,69,Female,Salaried,3735,37350,54,Savings,Bulawayo,ZiG,Approved,Mutual Funds,762.0,platinum
+778,1974,64,Male,Retired,549,3843,40,Loans,Masvingo,USD,Rejected,Stocks,844.0,silver
+779,1975,39,Male,Salaried,1524,9144,26,Loans,Gweru,USD,Pending,Real Estate,575.0,gold
+780,1976,62,Male,Business Owner,7534,7534,16,Loans,Gweru,USD,Rejected,Stocks,439.0,bronze
+781,1977,61,Male,Civil Servant,793,1586,28,Loans,Kwekwe,USD,Approved,Bonds,656.0,bronze
+782,1978,57,Male,Civil Servant,1421,1421,1,Savings,Bulawayo,USD,Rejected,Bonds,322.0,bronze
+783,1980,46,Male,Retired,270,2700,10,Loans,Gweru,USD,Rejected,Bonds,632.0,bronze
+784,1981,54,Male,Business Owner,3911,39110,43,Investments,Harare,ZiG,Pending,Stocks,384.0,platinum
+785,1982,65,Male,Salaried,3217,28953,17,Savings,Harare,USD,Pending,Bonds,330.0,gold
+786,1983,26,Male,Salaried,1362,9534,57,Savings,Mutare,ZiG,Rejected,Real Estate,539.0,silver
+787,1984,57,Female,Civil Servant,575,1150,59,Investments,Masvingo,ZiG,Pending,Bonds,662.0,silver
+788,1986,42,Female,Retired,557,6127,7,Savings,Kwekwe,ZiG,Approved,Bonds,598.0,bronze
+789,1987,41,Female,Civil Servant,1027,4108,44,Savings,Harare,ZWL,Approved,Stocks,670.0,silver
+790,1988,26,Male,Civil Servant,1205,1205,53,Loans,Harare,ZiG,Approved,Stocks,398.0,silver
+791,1989,26,Female,Civil Servant,1227,1227,7,Loans,Mutare,USD,Approved,Bonds,,bronze
+792,1990,68,Female,Civil Servant,863,4315,44,Loans,Masvingo,USD,Pending,Stocks,721.0,silver
+793,1991,24,Female,Business Owner,8128,16256,15,Loans,Masvingo,USD,Rejected,Stocks,779.0,gold
+794,1993,31,Male,Student,436,436,46,Savings,Harare,USD,Pending,Real Estate,408.0,silver
+795,1995,51,Male,Civil Servant,883,9713,4,Savings,Harare,ZiG,Rejected,Mutual Funds,418.0,bronze
+796,1997,29,Female,Business Owner,5831,58310,14,Savings,Kwekwe,USD,Pending,Bonds,691.0,gold
+797,1998,23,Male,Civil Servant,355,1420,16,Savings,Harare,USD,Pending,Real Estate,351.0,bronze
+798,1999,51,Female,Salaried,2542,2542,7,Loans,Bulawayo,ZWL,Approved,Bonds,588.0,bronze
+799,2000,60,Male,Salaried,709,4963,32,Investments,Gweru,USD,Pending,Mutual Funds,636.0,silver
